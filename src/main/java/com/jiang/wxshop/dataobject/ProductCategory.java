@@ -4,11 +4,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import org.hibernate.annotations.DynamicUpdate;
+
 /**
  * 类目
  * @author jiangqianghua
  */
 @Entity
+@DynamicUpdate // 动态更新时间,非常重要
 public class ProductCategory {
 	/**
 	 * 类目id
@@ -23,7 +26,7 @@ public class ProductCategory {
 	/**
 	 * 类目类型
 	 */
-	private String categoryType ;
+	private Integer categoryType ;
 	public Integer getCategoryId() {
 		return categoryId;
 	}
@@ -36,12 +39,19 @@ public class ProductCategory {
 	public void setCategoryName(String categoryName) {
 		this.categoryName = categoryName;
 	}
-	public String getCategoryType() {
+	
+	
+	
+	public Integer getCategoryType() {
 		return categoryType;
 	}
-	public void setCategoryType(String categoryType) {
+	public void setCategoryType(Integer categoryType) {
 		this.categoryType = categoryType;
-	} 
-	
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "categoryId="+categoryId + " categoryName="+categoryName + " categoryType="+categoryType;
+	}
 	
 }
