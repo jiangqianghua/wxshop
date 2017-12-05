@@ -17,7 +17,6 @@ public class App
 	private static Logger logger = LoggerFactory.getLogger(App.class);
 	public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
-        logger.debug("main run debug");
-        logger.error("main run error");
+        logger.info("微信订餐项目已经启动...");
     }
 }

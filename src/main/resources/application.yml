@@ -8,6 +8,7 @@ spring:
     show-sql:true # 打印日志
 #mysql 3.7.5
 server:
+  context-path: /sell   #url的前缀
   port: 8085
   session-timeout: 30  
   tomcat.max-threads: 0  
