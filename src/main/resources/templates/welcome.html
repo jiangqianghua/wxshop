@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+
+	<h1>Hello html ${name}</h1>
+	
+	<ul>
+		<#if (productlist?? && productlist?size>0)>   
+			<#list productlist as data>
+				<li>${data.productName}</li>
+			</#list>
+		</#if>
+	</ul>
+	
+</body>
+</html>

@@ -1,0 +1,486 @@
+2017-12-07 21:08:47,993 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 804 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:08:47,996 - No active profile set, falling back to default profiles: default
+2017-12-07 21:08:48,629 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4466af20: startup date [Thu Dec 07 21:08:48 CST 2017]; root of context hierarchy
+2017-12-07 21:08:51,529 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:08:54,429 - Tomcat initialized with port(s): 8085 (http)
+2017-12-07 21:08:54,520 - Starting service Tomcat
+2017-12-07 21:08:54,524 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-07 21:08:54,897 - Initializing Spring embedded WebApplicationContext
+2017-12-07 21:08:54,897 - Root WebApplicationContext: initialization completed in 6269 ms
+2017-12-07 21:08:55,177 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-07 21:08:55,194 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-07 21:08:55,194 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-07 21:08:55,195 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-07 21:08:55,195 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-07 21:10:11,548 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$191bedac.CGLIB$jpaVendorAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$191bedac$$FastClassBySpringCGLIB$$52d9a38.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$191bedac.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.jiang.wxshop.App.main(App.java:19)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 85 common frames omitted
+2017-12-07 21:10:31,505 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:10:31,590 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:10:32,061 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:10:32,080 - HHH000206: hibernate.properties not found
+2017-12-07 21:10:32,083 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:10:32,347 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:10:33,050 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:10:34,202 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:10:35,386 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4466af20: startup date [Thu Dec 07 21:08:48 CST 2017]; root of context hierarchy
+2017-12-07 21:10:35,527 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:10:35,532 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:10:35,532 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:10:35,575 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:10:35,575 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:10:35,646 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:10:36,078 - Registering beans for JMX exposure on startup
+2017-12-07 21:10:36,124 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:10:36,193 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:10:36,280 - Using a shared selector for servlet write/read
+2017-12-07 21:10:36,338 - Tomcat started on port(s): 8085 (http)
+2017-12-07 21:10:36,349 - Started App in 111.69 seconds (JVM running for 113.258)
+2017-12-07 21:10:36,350 - 微信订餐项目已经启动...
+2017-12-07 21:10:48,126 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-07 21:10:48,151 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-07 21:10:48,292 - FrameworkServlet 'dispatcherServlet': initialization completed in 141 ms
+2017-12-07 21:10:49,151 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:11:23,624 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4466af20: startup date [Thu Dec 07 21:08:48 CST 2017]; root of context hierarchy
+2017-12-07 21:11:23,641 - Unregistering JMX-exposed beans on shutdown
+2017-12-07 21:11:23,643 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:11:30,383 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 827 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:11:30,467 - No active profile set, falling back to default profiles: default
+2017-12-07 21:11:30,677 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e48362c: startup date [Thu Dec 07 21:11:30 CST 2017]; root of context hierarchy
+2017-12-07 21:11:31,326 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:11:33,545 - Tomcat initialized with port(s): 8085 (http)
+2017-12-07 21:11:33,577 - Starting service Tomcat
+2017-12-07 21:11:33,588 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-07 21:11:33,817 - Initializing Spring embedded WebApplicationContext
+2017-12-07 21:11:33,818 - Root WebApplicationContext: initialization completed in 3141 ms
+2017-12-07 21:11:34,126 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-07 21:11:34,134 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-07 21:11:34,135 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-07 21:11:34,136 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-07 21:11:34,136 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-07 21:11:35,250 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:11:35,280 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:11:35,404 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:11:35,406 - HHH000206: hibernate.properties not found
+2017-12-07 21:11:35,408 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:11:35,470 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:11:35,763 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:11:36,513 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:11:37,538 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e48362c: startup date [Thu Dec 07 21:11:30 CST 2017]; root of context hierarchy
+2017-12-07 21:11:37,693 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:11:37,698 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:11:37,699 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:11:37,774 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:11:37,774 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:11:37,868 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:11:38,689 - Registering beans for JMX exposure on startup
+2017-12-07 21:11:38,729 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:11:38,756 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:11:38,822 - Using a shared selector for servlet write/read
+2017-12-07 21:11:38,864 - Tomcat started on port(s): 8085 (http)
+2017-12-07 21:11:38,873 - Started App in 9.778 seconds (JVM running for 11.316)
+2017-12-07 21:11:38,873 - 微信订餐项目已经启动...
+2017-12-07 21:11:46,555 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-07 21:11:46,555 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-07 21:11:46,600 - FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2017-12-07 21:11:46,724 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:12:41,587 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 832 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:12:41,609 - No active profile set, falling back to default profiles: default
+2017-12-07 21:12:41,910 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:12:41 CST 2017]; root of context hierarchy
+2017-12-07 21:12:42,757 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:12:46,065 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:12:46,093 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:12:46,218 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:12:46,220 - HHH000206: hibernate.properties not found
+2017-12-07 21:12:46,225 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:12:46,319 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:12:46,561 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:12:47,497 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:12:50,500 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:12:41 CST 2017]; root of context hierarchy
+2017-12-07 21:12:50,661 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:12:50,665 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:12:50,666 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:12:50,743 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:12:50,744 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:12:50,830 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:12:51,244 - Started ProductCategoryRepositoryTest in 10.4 seconds (JVM running for 12.079)
+2017-12-07 21:12:53,150 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:12:53,649 - Began transaction (1) for test context [DefaultTestContext@3d680b5a testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@1515f782, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4b5d6a01 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5d76b067, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e6d1014, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@73d62b5]; rollback [true]
+2017-12-07 21:12:53,666 - Rolled back transaction for test context [DefaultTestContext@3d680b5a testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@1515f782, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4b5d6a01 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5d76b067, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e6d1014, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:12:53,701 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:12:53,959 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest], using SpringBootContextLoader
+2017-12-07 21:12:53,960 - Could not detect default resource locations for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:12:53,960 - Could not detect default configuration classes for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest]: ProductInfoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:12:54,061 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.repository.ProductInfoRepositoryTest
+2017-12-07 21:12:54,069 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:12:54,074 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12365bd8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14874a5d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49cb5030, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23c7cb18, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30fbc23, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d74cbbd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e2d44f3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23afc725, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d3f99d7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@561d88ee, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c34402, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f883d90]
+2017-12-07 21:12:54,148 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest], using SpringBootContextLoader
+2017-12-07 21:12:54,151 - Could not detect default resource locations for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:12:54,151 - Could not detect default configuration classes for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest]: CategoryServieImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:12:54,156 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.service.impl.CategoryServieImplTest
+2017-12-07 21:12:54,159 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:12:54,167 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@98637a2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4afd65fd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@141aba65, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3356ff58, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b55f5b7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2aa6bbad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6b2ef50e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f867b0c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b5ad306, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54be6213, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48a46b0f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1426370c]
+2017-12-07 21:12:54,231 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:12:54,291 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest], using SpringBootContextLoader
+2017-12-07 21:12:54,296 - Could not detect default resource locations for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:12:54,305 - Could not detect default configuration classes for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest]: ProductServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:12:54,314 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.service.impl.ProductServiceImplTest
+2017-12-07 21:12:54,317 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:12:54,321 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ef2b8e5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49190ed6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d717f19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18715bb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a19a0fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b7774d5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d284f15, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44bbb7c6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2342f1ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3303e89e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cec590c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1570cad0]
+2017-12-07 21:12:54,498 - Closing org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:12:41 CST 2017]; root of context hierarchy
+2017-12-07 21:12:54,503 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:19:43,962 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 857 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:19:43,971 - No active profile set, falling back to default profiles: default
+2017-12-07 21:19:44,113 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:19:44 CST 2017]; root of context hierarchy
+2017-12-07 21:19:45,067 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:19:47,586 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:19:47,618 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:19:47,790 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:19:47,793 - HHH000206: hibernate.properties not found
+2017-12-07 21:19:47,796 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:19:47,852 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:19:48,017 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:19:48,824 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:19:50,079 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:19:44 CST 2017]; root of context hierarchy
+2017-12-07 21:19:50,261 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:19:50,266 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:19:50,267 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:19:50,312 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:19:50,312 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:19:50,382 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:19:50,787 - Started ProductCategoryRepositoryTest in 7.83 seconds (JVM running for 9.833)
+2017-12-07 21:19:51,074 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:19:51,239 - Began transaction (1) for test context [DefaultTestContext@3d680b5a testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@54c11750, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4b5d6a01 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5d76b067, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e6d1014, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2baac4a7]; rollback [true]
+2017-12-07 21:19:51,253 - Rolled back transaction for test context [DefaultTestContext@3d680b5a testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@54c11750, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4b5d6a01 testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5d76b067, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e6d1014, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:19:51,278 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:19:51,509 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest], using SpringBootContextLoader
+2017-12-07 21:19:51,525 - Could not detect default resource locations for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:19:51,526 - Could not detect default configuration classes for test class [com.jiang.wxshop.repository.ProductInfoRepositoryTest]: ProductInfoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:19:51,544 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.repository.ProductInfoRepositoryTest
+2017-12-07 21:19:51,551 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:19:51,555 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c2ab536, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22fb9a2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2084e65a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1b8fa2fa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21527b8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7cc1f72c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7b7068d8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1d8e9d3e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@360d41d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4586a8aa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3dc82e6a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@54463380]
+2017-12-07 21:19:51,593 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest], using SpringBootContextLoader
+2017-12-07 21:19:51,594 - Could not detect default resource locations for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:19:51,594 - Could not detect default configuration classes for test class [com.jiang.wxshop.service.impl.CategoryServieImplTest]: CategoryServieImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:19:51,598 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.service.impl.CategoryServieImplTest
+2017-12-07 21:19:51,603 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:19:51,613 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7534785a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46b5f061, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ba3f40d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@108b121f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@46ab4efc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ff498b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b5312df, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4300e240, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f409872, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@547aaa32, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@472c9f88, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37a67cf]
+2017-12-07 21:19:51,687 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:19:51,700 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest], using SpringBootContextLoader
+2017-12-07 21:19:51,702 - Could not detect default resource locations for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-12-07 21:19:51,705 - Could not detect default configuration classes for test class [com.jiang.wxshop.service.impl.ProductServiceImplTest]: ProductServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-12-07 21:19:51,711 - Found @SpringBootConfiguration com.jiang.wxshop.App for test class com.jiang.wxshop.service.impl.ProductServiceImplTest
+2017-12-07 21:19:51,715 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-07 21:19:51,719 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@39ace1a7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1930a804, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bd4ee01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f93f4c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@598657cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@456aa471, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@69e2fe3b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27afbf14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4cfcac13, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c25d0d1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22c8ee48, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7845b21a]
+2017-12-07 21:19:51,817 - Closing org.springframework.web.context.support.GenericWebApplicationContext@589da3f3: startup date [Thu Dec 07 21:19:44 CST 2017]; root of context hierarchy
+2017-12-07 21:19:51,823 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:23:41,065 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 865 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:23:41,082 - No active profile set, falling back to default profiles: default
+2017-12-07 21:23:41,275 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4466af20: startup date [Thu Dec 07 21:23:41 CST 2017]; root of context hierarchy
+2017-12-07 21:23:41,900 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:24:02,345 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 869 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:24:02,360 - No active profile set, falling back to default profiles: default
+2017-12-07 21:24:02,421 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:24:02 CST 2017]; root of context hierarchy
+2017-12-07 21:24:03,000 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:24:05,684 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:24:05,703 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:24:05,830 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:24:05,831 - HHH000206: hibernate.properties not found
+2017-12-07 21:24:05,833 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:24:05,886 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:24:06,028 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:24:06,755 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:24:08,050 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:24:02 CST 2017]; root of context hierarchy
+2017-12-07 21:24:08,181 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:24:08,187 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:24:08,188 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:24:08,230 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:24:08,231 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:24:08,306 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:24:08,728 - Started ProductCategoryRepositoryTest in 7.183 seconds (JVM running for 9.328)
+2017-12-07 21:24:09,004 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:24:09,170 - Began transaction (1) for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@221ca495, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@6ce26986]; rollback [true]
+2017-12-07 21:24:09,186 - Rolled back transaction for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@221ca495, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:24:09,215 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:24:09,449 - Closing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:24:02 CST 2017]; root of context hierarchy
+2017-12-07 21:24:09,453 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:29:31,084 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 912 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:29:31,092 - No active profile set, falling back to default profiles: default
+2017-12-07 21:29:31,281 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:29:31 CST 2017]; root of context hierarchy
+2017-12-07 21:29:32,151 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:29:36,227 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:29:36,278 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:29:36,514 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:29:36,537 - HHH000206: hibernate.properties not found
+2017-12-07 21:29:36,540 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:29:36,706 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:29:37,097 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:29:38,477 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:29:40,236 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:29:31 CST 2017]; root of context hierarchy
+2017-12-07 21:29:40,398 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:29:40,403 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:29:40,404 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:29:40,455 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:29:40,456 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:29:40,548 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:29:41,054 - Started ProductCategoryRepositoryTest in 11.589 seconds (JVM running for 14.724)
+2017-12-07 21:29:41,441 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:29:41,620 - Began transaction (1) for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@3a38e4dc, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@9785903]; rollback [true]
+2017-12-07 21:29:41,634 - Rolled back transaction for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@3a38e4dc, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:29:41,698 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:29:42,002 - Closing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:29:31 CST 2017]; root of context hierarchy
+2017-12-07 21:29:42,006 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:31:11,019 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 921 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:31:11,047 - No active profile set, falling back to default profiles: default
+2017-12-07 21:31:11,121 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:31:11 CST 2017]; root of context hierarchy
+2017-12-07 21:31:11,814 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:31:14,476 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:31:14,502 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:31:14,609 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:31:14,612 - HHH000206: hibernate.properties not found
+2017-12-07 21:31:14,614 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:31:14,658 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:31:14,794 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:31:15,578 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:31:16,862 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:31:11 CST 2017]; root of context hierarchy
+2017-12-07 21:31:17,033 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:31:17,039 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:31:17,040 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:31:17,090 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:31:17,091 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:31:17,201 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:31:17,653 - Started ProductCategoryRepositoryTest in 7.343 seconds (JVM running for 8.999)
+2017-12-07 21:31:17,931 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:31:18,068 - Began transaction (1) for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@439f2d87, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@39f0c343]; rollback [true]
+2017-12-07 21:31:18,081 - Rolled back transaction for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@439f2d87, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:31:18,106 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:31:18,374 - Closing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:31:11 CST 2017]; root of context hierarchy
+2017-12-07 21:31:18,378 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:32:13,139 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 925 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:32:13,169 - No active profile set, falling back to default profiles: default
+2017-12-07 21:32:13,235 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:32:13 CST 2017]; root of context hierarchy
+2017-12-07 21:32:14,029 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:32:16,639 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:32:16,669 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:32:16,858 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:32:16,860 - HHH000206: hibernate.properties not found
+2017-12-07 21:32:16,861 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:32:16,911 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:32:17,052 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:32:17,887 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:32:20,105 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:32:13 CST 2017]; root of context hierarchy
+2017-12-07 21:32:20,284 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:32:20,289 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:32:20,289 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:32:20,339 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:32:20,340 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:32:20,419 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:32:20,866 - Started ProductCategoryRepositoryTest in 8.541 seconds (JVM running for 12.616)
+2017-12-07 21:32:22,263 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:32:22,473 - Began transaction (1) for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@7e0f9528, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@4f811029]; rollback [true]
+2017-12-07 21:32:22,487 - Rolled back transaction for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@7e0f9528, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:32:22,528 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:32:22,803 - Closing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:32:13 CST 2017]; root of context hierarchy
+2017-12-07 21:32:22,831 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:33:50,693 - Starting ProductCategoryRepositoryTest on jiangqianghuadeMacBook-Pro.local with PID 958 (started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-07 21:33:50,704 - No active profile set, falling back to default profiles: default
+2017-12-07 21:33:50,882 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:33:50 CST 2017]; root of context hierarchy
+2017-12-07 21:33:51,686 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:33:55,455 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:33:55,510 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:33:55,770 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:33:55,780 - HHH000206: hibernate.properties not found
+2017-12-07 21:33:55,783 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:33:55,945 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:33:56,342 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:33:57,741 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:33:59,265 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:33:50 CST 2017]; root of context hierarchy
+2017-12-07 21:33:59,431 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:33:59,437 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:33:59,438 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:33:59,496 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:33:59,497 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:33:59,590 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:34:00,296 - Started ProductCategoryRepositoryTest in 11.27 seconds (JVM running for 14.325)
+2017-12-07 21:34:01,363 - SQL Error: 1062, SQLState: 23000
+2017-12-07 21:34:01,720 - Began transaction (1) for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@237b2852, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5866731]; rollback [true]
+2017-12-07 21:34:01,734 - Rolled back transaction for test context [DefaultTestContext@3b2da18f testClass = ProductCategoryRepositoryTest, testInstance = com.jiang.wxshop.repository.ProductCategoryRepositoryTest@237b2852, testMethod = updateTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5906ebcb testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.jiang.wxshop.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@67205a84, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a17b7b6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2833cc44], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-12-07 21:34:01,799 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:34:02,203 - Closing org.springframework.web.context.support.GenericWebApplicationContext@700fb871: startup date [Thu Dec 07 21:33:50 CST 2017]; root of context hierarchy
+2017-12-07 21:34:02,207 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:37:33,589 - Starting App v0.0.1-SNAPSHOT on jiangqianghuadeMacBook-Pro.local with PID 977 (/Users/jiangqianghua/Documents/workspace/wxshop/target/wxshop-0.0.1-SNAPSHOT.jar started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop/target)
+2017-12-07 21:37:33,602 - No active profile set, falling back to default profiles: default
+2017-12-07 21:37:33,709 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1edf1c96: startup date [Thu Dec 07 21:37:33 CST 2017]; root of context hierarchy
+2017-12-07 21:37:34,380 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-07 21:37:36,717 - Tomcat initialized with port(s): 8085 (http)
+2017-12-07 21:37:36,745 - Starting service Tomcat
+2017-12-07 21:37:36,747 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-07 21:37:36,935 - Initializing Spring embedded WebApplicationContext
+2017-12-07 21:37:36,936 - Root WebApplicationContext: initialization completed in 3227 ms
+2017-12-07 21:37:37,202 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-07 21:37:37,209 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-07 21:37:37,210 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-07 21:37:37,210 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-07 21:37:37,210 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-07 21:37:38,449 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:37:38,479 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-07 21:37:38,614 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-07 21:37:38,617 - HHH000206: hibernate.properties not found
+2017-12-07 21:37:38,619 - HHH000021: Bytecode provider name : javassist
+2017-12-07 21:37:38,725 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 21:37:39,169 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 21:37:39,853 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-07 21:37:40,767 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1edf1c96: startup date [Thu Dec 07 21:37:33 CST 2017]; root of context hierarchy
+2017-12-07 21:37:40,925 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-07 21:37:40,930 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 21:37:40,930 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 21:37:40,985 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:37:40,985 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:37:41,062 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 21:37:41,505 - Registering beans for JMX exposure on startup
+2017-12-07 21:37:41,535 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:37:41,586 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-07 21:37:41,626 - Using a shared selector for servlet write/read
+2017-12-07 21:37:41,656 - Tomcat started on port(s): 8085 (http)
+2017-12-07 21:37:41,664 - Started App in 9.197 seconds (JVM running for 9.96)
+2017-12-07 21:37:41,664 - 微信订餐项目已经启动...
+2017-12-07 21:37:47,675 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-07 21:37:47,676 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-07 21:37:47,703 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-12-07 21:37:47,798 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-07 21:40:49,898 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1edf1c96: startup date [Thu Dec 07 21:37:33 CST 2017]; root of context hierarchy
+2017-12-07 21:40:49,928 - Unregistering JMX-exposed beans on shutdown
+2017-12-07 21:40:49,931 - Closing JPA EntityManagerFactory for persistence unit 'default'

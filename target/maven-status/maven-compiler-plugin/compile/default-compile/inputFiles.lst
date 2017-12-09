@@ -1,0 +1,15 @@
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/vo/ResultVo.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/service/ProductService.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/dataobject/ProductCategory.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/repository/ProductCategoryRepository.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/service/CategroyService.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/enums/ProductStatusEnum.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/dataobject/ProductInfo.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/utils/ResultVOUtil.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/App.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/service/impl/CategoryServieImpl.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/service/impl/ProductServiceImpl.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/vo/ProductInfoVo.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/controller/BuyerProductController.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/repository/ProductInfoRepository.java
+/Users/jiangqianghua/Documents/workspace/wxshop/src/main/java/com/jiang/wxshop/vo/ProductVo.java

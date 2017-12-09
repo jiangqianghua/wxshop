@@ -1,7 +1,6 @@
 package com.jiang.wxshop.controller;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -15,6 +14,7 @@ import com.jiang.wxshop.dataobject.ProductCategory;
 import com.jiang.wxshop.dataobject.ProductInfo;
 import com.jiang.wxshop.service.CategroyService;
 import com.jiang.wxshop.service.ProductService;
+import com.jiang.wxshop.utils.ResultVOUtil;
 import com.jiang.wxshop.vo.ProductInfoVo;
 import com.jiang.wxshop.vo.ProductVo;
 import com.jiang.wxshop.vo.ResultVo;
@@ -85,10 +85,15 @@ public class BuyerProductController {
 			productVoList.add(productVo);
 		}
 		
-		ResultVo<List<ProductVo>> resultVo = new ResultVo<List<ProductVo>>();
-		resultVo.setCode(0);
-		resultVo.setMsg("msg");
-		resultVo.setData(productVoList);
-		return resultVo;
+//		ResultVo<List<ProductVo>> resultVo = new ResultVo<List<ProductVo>>();
+//		resultVo.setCode(0);
+//		resultVo.setMsg("msg");
+//		resultVo.setData(productVoList);
+		
+		return ResultVOUtil.success(productVoList);
 	}
+	
+	
+	
+	
 }
