@@ -38,4 +38,5 @@ public class ProductInfoRepositoryTest {
 		List<ProductInfo> productInfos = repository.findByProductStatus(0);
 		Assert.assertNotNull(productInfos);
 	}
+
 }

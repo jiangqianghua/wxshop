@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import com.jiang.wxshop.dataobject.ProductInfo;
+import com.jiang.wxshop.dto.CartDTO;
 
 public interface ProductService {
 
@@ -22,6 +23,8 @@ public interface ProductService {
 	ProductInfo save(ProductInfo productInfo);
 	
 	// 加库存
+	void increaseStock(List<CartDTO> cartDTOList);	
 	
 	// 减库存
-}
+	void descreaseStock(List<CartDTO> cartDTOList);
+}	
