@@ -29,27 +29,7 @@ public class BuyerProductController {
 	@Autowired
 	private CategroyService categoryService ;
 	//http:127.0.0.1:8085/sell/buyer/product/list
-	/**
-	{
-	code: 0,
-	msg: "msg",
-	data: [
-	{
-		name: null,
-		type: null,
-		foods: [
-		{
-			id: null,
-			name: null,
-			price: null,
-			description: null,
-			icon: null
-		}
-		]
-	}
-	]
-	}
-	**/
+	
 	@GetMapping("list")
 	public ResultVo list(){
 		

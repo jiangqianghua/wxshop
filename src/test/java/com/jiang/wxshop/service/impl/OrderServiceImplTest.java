@@ -83,4 +83,11 @@ public class OrderServiceImplTest {
 		Assert.assertEquals(PlayStatusEnum.SUCCESS.getCode(), orderDTO.getPlayStatus());
 	}
 	
+	@Test
+	public void findListTest1(){
+		PageRequest request = new PageRequest(0,5);
+		Page<OrderDTO> orPage = orderServiceImpl.findList(request);
+		Assert.assertNotNull(orPage);
+	}
+	
 }

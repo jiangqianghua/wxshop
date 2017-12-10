@@ -74,8 +74,8 @@ public class OrderServiceImpl implements OrderService{
 		
 		//4 存入主数据库
 		OrderMaster orderMaster = new OrderMaster();
+		orderDTO.setOrderId(orderId);
 		BeanUtils.copyProperties(orderDTO, orderMaster);
-		orderMaster.setOrderId(orderId);
 		orderMaster.setOrderAmount(orderAmount);
 		orderMaster.setOrderStatus(OrderStatusEnum.NEW.getCode());
 		orderMaster.setPlayStatus(PlayStatusEnum.WAIT.getCode());
@@ -195,6 +195,14 @@ public class OrderServiceImpl implements OrderService{
 			throw new SellException(ResultEnum.ORDER_UPDATE_FAIL);
 		}
 		return null;
+	}
+
+	@Override
+	public Page<OrderDTO> findList(Pageable pageable) {
+		Page<OrderMaster> orPage =  orderMasterRepository.findAll(pageable);
+		List<OrderDTO> orList = OrderMaster2OrderDTOConverter.convert(orPage.getContent());
+		Page<OrderDTO> orderDTOPage = new PageImpl<OrderDTO>(orList,pageable,orPage.getTotalElements());
+		return orderDTOPage ;
 	}
 
 }

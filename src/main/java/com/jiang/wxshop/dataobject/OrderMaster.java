@@ -1,8 +1,7 @@
 package com.jiang.wxshop.dataobject;
 
 import java.math.BigDecimal;
-import java.sql.Date;
-import java.util.List;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

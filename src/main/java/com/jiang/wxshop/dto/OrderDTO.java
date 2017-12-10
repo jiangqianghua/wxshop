@@ -1,18 +1,22 @@
 package com.jiang.wxshop.dto;
 
 import java.math.BigDecimal;
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.jiang.wxshop.dataobject.OrderDetail;
 import com.jiang.wxshop.enums.OrderStatusEnum;
 import com.jiang.wxshop.enums.PlayStatusEnum;
+import com.jiang.wxshop.utils.serializer.Date2LongSerialier;
 
 /**
  * 方便引用层传递
  * @author jiangqianghua
  *
  */
+//@JsonInclude(JsonInclude.Include.NON_NULL)  // 对象转成json的时候，为NULL的参数丢弃掉,也可以在全局去配置
 public class OrderDTO {
 
 	private String orderId ; 
@@ -23,7 +27,10 @@ public class OrderDTO {
 	private BigDecimal orderAmount ;
 	private Integer orderStatus;
 	private Integer playStatus;
+	// 时间转换，秒单位
+	@JsonSerialize(using = Date2LongSerialier.class)
 	private Date createTime ;
+	@JsonSerialize(using = Date2LongSerialier.class)
 	private Date updateTime ;
 	
 	private List<OrderDetail> orderDetailList ;
