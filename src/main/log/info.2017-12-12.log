@@ -1,0 +1,104 @@
+2017-12-12 00:10:18,428 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 596 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-12 00:10:18,434 - No active profile set, falling back to default profiles: default
+2017-12-12 00:10:18,670 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d446ed1: startup date [Tue Dec 12 00:10:18 CST 2017]; root of context hierarchy
+2017-12-12 00:10:20,098 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-12 00:10:23,467 - Tomcat initialized with port(s): 8085 (http)
+2017-12-12 00:10:23,489 - Starting service Tomcat
+2017-12-12 00:10:23,490 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-12 00:10:23,884 - Initializing Spring embedded WebApplicationContext
+2017-12-12 00:10:23,885 - Root WebApplicationContext: initialization completed in 5215 ms
+2017-12-12 00:10:24,227 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 00:10:24,242 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 00:10:24,246 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 00:10:24,249 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 00:10:24,250 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 00:10:25,900 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 00:10:25,921 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 00:10:26,081 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 00:10:26,083 - HHH000206: hibernate.properties not found
+2017-12-12 00:10:26,085 - HHH000021: Bytecode provider name : javassist
+2017-12-12 00:10:26,499 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 00:10:26,771 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 00:10:27,873 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 00:10:29,185 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-12 00:10:30,030 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d446ed1: startup date [Tue Dec 12 00:10:18 CST 2017]; root of context hierarchy
+2017-12-12 00:10:30,241 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-12 00:10:30,244 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-12 00:10:30,245 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-12 00:10:30,246 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-12 00:10:30,248 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-12 00:10:30,251 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:10:30,252 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:10:30,253 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:10:30,254 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:10:30,256 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:10:30,263 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 00:10:30,266 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 00:10:30,366 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:10:30,366 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:10:30,470 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:10:31,587 - Registering beans for JMX exposure on startup
+2017-12-12 00:10:31,633 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-12 00:10:31,711 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-12 00:10:31,760 - Using a shared selector for servlet write/read
+2017-12-12 00:10:31,849 - Tomcat started on port(s): 8085 (http)
+2017-12-12 00:10:31,870 - Started App in 16.639 seconds (JVM running for 21.461)
+2017-12-12 00:10:31,870 - 微信订餐项目已经启动...
+2017-12-12 00:10:43,189 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 00:10:43,219 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 00:10:43,252 - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2017-12-12 00:11:46,273 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-12 00:27:32,114 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 607 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-12 00:27:32,122 - No active profile set, falling back to default profiles: default
+2017-12-12 00:27:32,233 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d446ed1: startup date [Tue Dec 12 00:27:32 CST 2017]; root of context hierarchy
+2017-12-12 00:27:32,914 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-12 00:27:35,650 - Tomcat initialized with port(s): 8085 (http)
+2017-12-12 00:27:35,677 - Starting service Tomcat
+2017-12-12 00:27:35,679 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-12 00:27:35,935 - Initializing Spring embedded WebApplicationContext
+2017-12-12 00:27:35,936 - Root WebApplicationContext: initialization completed in 3703 ms
+2017-12-12 00:27:36,254 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-12 00:27:36,262 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-12 00:27:36,263 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-12 00:27:36,264 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-12 00:27:36,264 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-12 00:27:37,309 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-12 00:27:37,339 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-12 00:27:37,488 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-12 00:27:37,490 - HHH000206: hibernate.properties not found
+2017-12-12 00:27:37,493 - HHH000021: Bytecode provider name : javassist
+2017-12-12 00:27:37,693 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 00:27:37,890 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 00:27:38,651 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-12 00:27:39,680 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-12 00:27:40,365 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d446ed1: startup date [Tue Dec 12 00:27:32 CST 2017]; root of context hierarchy
+2017-12-12 00:27:40,536 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-12 00:27:40,538 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-12 00:27:40,539 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-12 00:27:40,539 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-12 00:27:40,541 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-12 00:27:40,543 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:27:40,544 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:27:40,547 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:27:40,547 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:27:40,549 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-12 00:27:40,554 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-12 00:27:40,555 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-12 00:27:40,631 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:27:40,632 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:27:40,789 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-12 00:27:41,756 - Registering beans for JMX exposure on startup
+2017-12-12 00:27:41,821 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-12 00:27:41,846 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-12 00:27:41,873 - Using a shared selector for servlet write/read
+2017-12-12 00:27:41,919 - Tomcat started on port(s): 8085 (http)
+2017-12-12 00:27:41,928 - Started App in 10.921 seconds (JVM running for 12.022)
+2017-12-12 00:27:41,928 - 微信订餐项目已经启动...
+2017-12-12 00:27:46,094 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 00:27:46,094 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 00:27:46,126 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2017-12-12 00:27:46,243 - HHH000397: Using ASTQueryTranslatorFactory

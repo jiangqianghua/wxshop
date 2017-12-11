@@ -21,7 +21,7 @@ public class SellerOrderController {
 	@Autowired
 	private OrderService orderService ;
 	/**
-	 * 订单查询
+	 * 订单查询 127.0.0.1:8085/sell/seller/product/list
 	 * @param page  当前查询第几页  从1开始
 	 * @param size  每一个显示多少条
 	 * @return
@@ -33,6 +33,8 @@ public class SellerOrderController {
 		PageRequest request = new PageRequest(page-1, size);
 		Page<OrderDTO> orderDTOPage = orderService.findList(request);
 		map.put("orderDTOPage", orderDTOPage);
+		map.put("currentPage",page);
+		map.put("size", size);
 		return new ModelAndView("order/list",map) ;
 	}
 }

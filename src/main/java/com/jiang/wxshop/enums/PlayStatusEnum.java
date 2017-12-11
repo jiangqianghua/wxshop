@@ -1,6 +1,6 @@
 package com.jiang.wxshop.enums;
 
-public enum PlayStatusEnum {
+public enum PlayStatusEnum  implements CodeEnum{
 	WAIT(0,"等待支付"),
 	SUCCESS(1,"支付成功")
 	

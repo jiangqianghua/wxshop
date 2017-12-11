@@ -1,3 +1,75 @@
-<h1>seller product list</h1>
-<h1>${orderDTOPage.getTotalPages()}</h1>
-<h1>${orderDTOPage.totalPages}</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>订单列表</title>
+		<meta name="viewport" content="width=device-width, 
+	                                      initial-scale=1.0, 
+	                                      maximum-scale=1.0, 
+	                                      user-scalable=no">
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="table-responsive">
+		   <table class="table">
+			<caption>订单列表</caption>
+				<thead>
+				<tr>
+					<th>订单id</th>
+					<th>姓名</th>
+					<th>手机号</th>
+					<th>地址</th>
+					<th>金额</th>
+					<th>订单状态</th>
+					<th>支付状态</th>
+					<th>创建时间</th>
+					<th colspan="2">操作</th>
+				</tr>
+				</thead>
+			<tbody>
+		 		<#list orderDTOPage.content as orderdto>
+		         <tr>
+					<td>${orderdto.orderId}</td>
+					<td>${orderdto.buyerName}</td>
+					<td>${orderdto.buyerPhone}</td>
+					<td>${orderdto.buyerAddress}</td>
+					<td>${orderdto.orderAmount}</td>
+					<td>${orderdto.getOrderStatusEnum().message}</td>
+					<td>${orderdto.getPlayStatusEnum().message}</td>
+					<td>${orderdto.createTime}</td>
+					<td>详情</td>
+		 			<td>取消</td>
+				</tr>
+		         </#list>
+			</tbody>
+		</table>
+		
+		<!-- 分页 -->
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<ul class="pagination pull-right">
+					<#if currentPage lte 1>
+						<li class="disabled"><a href="#">上一页</a></li>
+					<#else>
+						<li><a href="/sell/seller/product/list?page=${currentPage-1}&size=${size}">上一页</a></li>
+					</#if>
+					<#list 1..orderDTOPage.getTotalPages() as index>
+						<#if currentPage == index>
+							<li class="disabled"><a href="#">${index}</a></li>
+						<#else>
+							<li><a href="/sell/seller/product/list?page=${index}&size=${size}">${index}</a></li>
+						</#if>
+					</#list>
+					<#if currentPage gte orderDTOPage.getTotalPages()>
+						<li class="disabled"><a href="#">下一页</a></li>
+					<#else>
+						<li><a href="/sell/seller/product/list?page=${currentPage+1}&size=${size}">下一页</a></li>
+					</#if>
+				</ul>
+			</div>
+		</div>
+		</div>  	
+
+	</body>
+</html>

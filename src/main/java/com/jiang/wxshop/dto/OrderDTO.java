@@ -4,11 +4,13 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.jiang.wxshop.dataobject.OrderDetail;
 import com.jiang.wxshop.enums.OrderStatusEnum;
 import com.jiang.wxshop.enums.PlayStatusEnum;
+import com.jiang.wxshop.utils.EnumUtil;
 import com.jiang.wxshop.utils.serializer.Date2LongSerialier;
 
 /**
@@ -99,5 +101,14 @@ public class OrderDTO {
 	}
 	public void setOrderDetailList(List<OrderDetail> orderDetailList) {
 		this.orderDetailList = orderDetailList;
+	}
+	
+	@JsonIgnore // 转成json忽略掉改方法
+	public OrderStatusEnum getOrderStatusEnum(){
+		return EnumUtil.getByCode(orderStatus, OrderStatusEnum.class);
+	}
+	@JsonIgnore
+	public PlayStatusEnum getPlayStatusEnum(){
+		return EnumUtil.getByCode(playStatus,PlayStatusEnum.class);
 	}
 }
