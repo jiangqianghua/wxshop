@@ -2,21 +2,15 @@
 <html>
 	<head>
 	<title>订单列表</title>
-		<meta name="viewport" content="width=device-width, 
-	                                      initial-scale=1.0, 
-	                                      maximum-scale=1.0, 
-	                                      user-scalable=no">
-		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/sell/css/style.css">
-		<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<#include "../common/header.html">
 	</head>
 	<body>
 		<div id="wrapper" class="toggled">
 		<#include "../common/nav.html">
-		<div class="table-responsive">
-		   <table class="table table-bordered">
-			<caption>订单列表</caption>
+<div class="container-fluid">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<table class="table table-condensed table-bordered">
 				<thead>
 				<tr>
 					<th>订单id</th>

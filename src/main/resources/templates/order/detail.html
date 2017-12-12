@@ -2,14 +2,13 @@
 <html>
 	<head>
 	<title>订单列表</title>
-		<meta name="viewport" content="width=device-width, 
-	                                      initial-scale=1.0, 
-	                                      maximum-scale=1.0, 
-	                                      user-scalable=no">
-		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+	<#include "../common/header.html">
 	</head>
 	<body>
-<div class="container">
+	
+	<div id="wrapper" class="toggled">
+		<#include "../common/nav.html">
+<div class="container-fluid">
 	<!--  订单金额 -->
 	<div class="row clearfix">
 		<div class="col-md-4 column">
@@ -65,5 +64,6 @@
 			 </#if>
 		</div>
 </div>
+	</div>
 	</body>
 </html>
