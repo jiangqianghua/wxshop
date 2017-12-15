@@ -14,7 +14,11 @@ public enum ResultEnum {
 	CART_EMPTY(18,"购物车为空"),
 	ORDER_OWNER_ERROR(19,"该订单不属于当前用户"),
 	ORDER_CANCEL_SUCCESS(20,"订单取消成功"),
-	ORDER_FINISH_SUCCESS(21,"订单完结成功")
+	ORDER_FINISH_SUCCESS(21,"订单完结成功"),
+	PRODUCT_STATUS_ERROR(22,"商品状态不正确"),
+	PROCUDE_ONSALE_SUCCESS(23,"商品上架成功"),
+	PROCUDE_OFFSALE_SUCCESS(24,"商品下架成功"),
+	PROCUDE_SAVE_SUCCESS(25,"商品提交成功")
 	;
 	private Integer code ;
 	private String message ; 

@@ -1,27 +1,11 @@
-package com.jiang.wxshop.dataobject;
+package com.jiang.wxshop.form;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import org.hibernate.validator.constraints.NotEmpty;
 
-import org.hibernate.annotations.DynamicUpdate;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.jiang.wxshop.enums.ProductStatusEnum;
-import com.jiang.wxshop.utils.EnumUtil;
-import com.jiang.wxshop.utils.serializer.Date2LongSerialier;
-/**
- * 商品信息表
- * @author jiangqianghua
- *
- */
-@Entity
-@DynamicUpdate
-public class ProductInfo {
-	@Id
+public class ProductForm {
+	
 	private String productId;
 	/**
 	 * 名字
@@ -40,10 +24,6 @@ public class ProductInfo {
 	 */
 	private String productDescription ;
 	/**
-	 * 商品状态 0 正常   1下架
-	 */
-	private int productStatus = ProductStatusEnum.UP.getCode() ;
-	/**
 	 * 小图
 	 */
 	private String productIcon ;
@@ -51,14 +31,6 @@ public class ProductInfo {
 	 * 编号
 	 */
 	private Integer categoryType;
-	
-	// 时间转换，秒单位
-	@JsonSerialize(using = Date2LongSerialier.class)
-	private Date createTime ;
-	// 时间转换，秒单位
-	@JsonSerialize(using = Date2LongSerialier.class)
-	private Date updateTime ;
-	
 	public String getProductId() {
 		return productId;
 	}
@@ -89,12 +61,7 @@ public class ProductInfo {
 	public void setProductDescription(String productDescription) {
 		this.productDescription = productDescription;
 	}
-	public int getProductStatus() {
-		return productStatus;
-	}
-	public void setProductStatus(int productStatus) {
-		this.productStatus = productStatus;
-	}
+
 	public String getProductIcon() {
 		return productIcon;
 	}
@@ -107,24 +74,7 @@ public class ProductInfo {
 	public void setCategoryType(Integer categoryType) {
 		this.categoryType = categoryType;
 	}
-	public Date getCreateTime() {
-		return createTime;
-	}
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
-	}
-	public Date getUpdateTime() {
-		return updateTime;
-	}
-	public void setUpdateTime(Date updateTime) {
-		this.updateTime = updateTime;
-	} 	
-	@JsonIgnore
-	public ProductStatusEnum getProductStatusEnum(){
-		return EnumUtil.getByCode(productStatus,ProductStatusEnum.class );
-	}
 	
 	
 	
-
 }
