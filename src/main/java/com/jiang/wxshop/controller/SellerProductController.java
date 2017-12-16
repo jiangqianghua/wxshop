@@ -89,7 +89,7 @@ public class SellerProductController {
 			map.put("url", "/sell/seller/prodcut/list");
 			return new ModelAndView("common/error",map);
 		}
-		map.put("msg", ResultEnum.PROCUDE_ONSALE_SUCCESS.getMessage());
+		map.put("msg", ResultEnum.PROCUDE_OFFSALE_SUCCESS.getMessage());
 		map.put("url", "/sell/seller/product/list");
 		return new ModelAndView("common/success",map);
 	}

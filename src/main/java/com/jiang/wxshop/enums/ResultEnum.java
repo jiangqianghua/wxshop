@@ -18,7 +18,10 @@ public enum ResultEnum {
 	PRODUCT_STATUS_ERROR(22,"商品状态不正确"),
 	PROCUDE_ONSALE_SUCCESS(23,"商品上架成功"),
 	PROCUDE_OFFSALE_SUCCESS(24,"商品下架成功"),
-	PROCUDE_SAVE_SUCCESS(25,"商品提交成功")
+	PROCUDE_SAVE_SUCCESS(25,"商品提交成功"),
+	CATEGORY_SAVE_SUCCESS(25,"类目提交成功"),
+	LOGIN_ERROR(26,"登录失败，登录信息不正确"),
+	LOGOUT_SUCCESS(27,"登出成功")
 	;
 	private Integer code ;
 	private String message ; 
