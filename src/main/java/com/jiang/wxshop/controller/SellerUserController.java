@@ -11,11 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.jiang.wxshop.config.WxShopConfig;
 import com.jiang.wxshop.constant.CookieConstant;
 import com.jiang.wxshop.constant.RedisConstant;
 import com.jiang.wxshop.dataobject.SellerInfo;
@@ -34,6 +36,9 @@ public class SellerUserController {
 	private  SellerService sellerService;
 	@Autowired
 	private StringRedisTemplate redisTemplate ;
+	
+	@Autowired
+	private WxShopConfig wxShopConfig ;
 	/**
 	 * 登录操作 http://127.0.0.1:8085/sell/seller/login?openid=150700
 	 * @param openid
@@ -42,16 +47,20 @@ public class SellerUserController {
 	 * @return
 	 */
 	@GetMapping("/login") 
-	public ModelAndView login(@RequestParam("openid") String openid,
+	public ModelAndView login(@RequestParam(value="openid",required=false) String openid,
 					HttpServletResponse response,
 					Map<String, Object> map){
 		
+		if(StringUtils.isEmpty(openid))
+		{
+			map.put("msg", "");
+			return new ModelAndView("login",map);
+		}
 		// openid 和数据库匹配
 		SellerInfo sellerInfo = sellerService.findSellerInfoByOpenid(openid);
 		if(sellerInfo == null){
 			map.put("msg", ResultEnum.LOGIN_ERROR.getMessage());
-			map.put("url", "order/list");
-			return new ModelAndView("common/error",map);
+			return new ModelAndView("login",map);
 		}
 		//设置token到redis
 		String token = UUID.randomUUID().toString();
@@ -62,7 +71,7 @@ public class SellerUserController {
 		//设置token到cookie
 		CookieUtil.set(response, CookieConstant.TOKEN, token, expire);
 		//登录成功，链接地址跳转, 注意跳转用绝对地址
-		return new ModelAndView("redirect:http://127.0.0.1:8085/sell/seller/order/list");
+		return new ModelAndView("redirect:"+wxShopConfig.getBaseUrl()+"/sell/seller/order/list");
 	}
 	/**
 	 * 登出操作  http://127.0.0.1:8085/sell/seller/logout
