@@ -1,0 +1,37 @@
+# 开发环境
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 111111
+    url: jdbc:mysql://192.168.1.102:3306/sell?characterEncoding=utf-8&useSSL=false
+    #sudo mysql -h 192.168.1.102 -u root -p
+  jpa:
+    show-sql:true # 打印日志
+  jackson:
+    default-property-inclusion: non_null # 接口转json返回带null的参数不显示
+  redis:
+    host: 192.168.1.102
+    port: 6379
+#mysql 3.7.5
+server:
+  context-path: /sell   #url的前缀
+  port: 8085
+  session-timeout: 30  
+  tomcat.max-threads: 0  
+  tomcat.uri-encoding: UTF-8
+wxshop:
+  baseUrl: http://127.0.0.1:8085
+#logging:
+  #指定控制台输出格式
+  #pattern:
+  #  console: "%d -+- %msg%n" 
+  # 保存在tomcat下spring.log文件
+  #path:
+  #  /Users/jiangqianghua/Documents/workspace/wxshop/src/main/log/
+  #指定保存在wxshop.log文件
+  #file: /Users/jiangqianghua/Documents/workspace/wxshop/src/main/log/wxshop.log
+  # 指定打印某个类的日志
+  #level:
+  #  com.ioomc.LoggerTest: debug
+  # 要更好的控制日志，还是需要到logback.xml控制  

@@ -2454,3 +2454,380 @@ java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refr
 2017-12-17 13:45:06,478 - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2017-12-17 13:45:06,478 - FrameworkServlet 'dispatcherServlet': initialization started
 2017-12-17 13:45:06,532 - FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2017-12-17 15:44:38,521 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 744 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-17 15:44:38,589 - No active profile set, falling back to default profiles: default
+2017-12-17 15:44:39,140 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5454d35e: startup date [Sun Dec 17 15:44:39 CST 2017]; root of context hierarchy
+2017-12-17 15:44:41,596 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 15:44:47,585 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:44:48,359 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:44:48,487 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 15:44:48,488 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 15:44:48,489 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 15:44:48,489 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 15:44:48,490 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 15:44:51,869 - Tomcat initialized with port(s): 8080 (http)
+2017-12-17 15:44:51,928 - Starting service Tomcat
+2017-12-17 15:44:51,942 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 15:44:52,336 - Initializing Spring embedded WebApplicationContext
+2017-12-17 15:44:52,336 - Root WebApplicationContext: initialization completed in 13196 ms
+2017-12-17 15:44:52,687 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 15:44:52,701 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 15:44:52,702 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 15:44:52,702 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 15:44:52,702 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 15:44:53,020 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2017-12-17 15:44:53,024 - Stopping service Tomcat
+2017-12-17 15:44:53,265 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-17 15:46:16,614 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 750 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2017-12-17 15:46:16,658 - The following profiles are active: dev
+2017-12-17 15:46:16,826 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Dec 17 15:46:16 CST 2017]; root of context hierarchy
+2017-12-17 15:46:17,373 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 15:46:18,528 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:46:18,722 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:46:18,775 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 15:46:18,776 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 15:46:18,777 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 15:46:18,779 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 15:46:18,780 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 15:46:20,785 - Tomcat initialized with port(s): 8085 (http)
+2017-12-17 15:46:20,819 - Starting service Tomcat
+2017-12-17 15:46:20,821 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 15:46:21,107 - Initializing Spring embedded WebApplicationContext
+2017-12-17 15:46:21,108 - Root WebApplicationContext: initialization completed in 4282 ms
+2017-12-17 15:46:21,493 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 15:46:21,500 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 15:46:21,501 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 15:46:21,501 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 15:46:21,502 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 15:46:23,560 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:46:23,615 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-17 15:46:23,920 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-17 15:46:23,923 - HHH000206: hibernate.properties not found
+2017-12-17 15:46:23,926 - HHH000021: Bytecode provider name : javassist
+2017-12-17 15:46:24,125 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 15:46:24,523 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-17 15:46:25,830 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:46:28,872 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-17 15:46:30,467 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Dec 17 15:46:16 CST 2017]; root of context hierarchy
+2017-12-17 15:46:30,886 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-17 15:46:30,888 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-17 15:46:30,889 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-17 15:46:30,890 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-17 15:46:30,891 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-17 15:46:30,892 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,893 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,894 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,894 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,897 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,898 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,898 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,902 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,902 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,903 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,904 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,908 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,909 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,910 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,911 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,912 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,915 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,915 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:46:30,921 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-17 15:46:30,922 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-17 15:46:31,007 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:46:31,007 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:46:31,049 - Detected @ExceptionHandler methods in sellExceptionHandler
+2017-12-17 15:46:31,126 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:46:32,683 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2017-12-17 15:46:32,903 - Registering beans for JMX exposure on startup
+2017-12-17 15:46:32,971 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-17 15:46:33,072 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-17 15:46:33,222 - Using a shared selector for servlet write/read
+2017-12-17 15:46:33,346 - Tomcat started on port(s): 8085 (http)
+2017-12-17 15:46:33,373 - Started App in 17.766 seconds (JVM running for 18.554)
+2017-12-17 15:46:33,373 - 微信订餐项目已经启动...
+2017-12-17 15:46:45,298 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-17 15:46:45,304 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-17 15:46:45,364 - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2017-12-17 15:46:45,518 - [登录校验] cookie查不到token
+2017-12-17 15:46:50,581 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 15:56:09,428 - Starting App v0.0.1-SNAPSHOT on jiangqianghuadeMacBook-Pro.local with PID 921 (/Users/jiangqianghua/Documents/workspace/wxshop/target/wxshop-0.0.1-SNAPSHOT.jar started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop/target)
+2017-12-17 15:56:09,459 - The following profiles are active: dev
+2017-12-17 15:56:09,587 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:56:09 CST 2017]; root of context hierarchy
+2017-12-17 15:56:10,795 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 15:56:11,278 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:56:11,446 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:56:11,518 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 15:56:11,519 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 15:56:11,521 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 15:56:11,523 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 15:56:11,525 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 15:56:13,509 - Tomcat initialized with port(s): 8085 (http)
+2017-12-17 15:56:13,551 - Starting service Tomcat
+2017-12-17 15:56:13,552 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 15:56:13,703 - Initializing Spring embedded WebApplicationContext
+2017-12-17 15:56:13,703 - Root WebApplicationContext: initialization completed in 4117 ms
+2017-12-17 15:56:13,999 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 15:56:14,005 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 15:56:14,005 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 15:56:14,006 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 15:56:14,006 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 15:56:15,673 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:56:15,735 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-17 15:56:16,182 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-17 15:56:16,193 - HHH000206: hibernate.properties not found
+2017-12-17 15:56:16,198 - HHH000021: Bytecode provider name : javassist
+2017-12-17 15:56:16,567 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 15:56:18,100 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-17 15:56:18,873 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:56:20,338 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:56:09 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-12-17 15:56:20,341 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-17 15:56:21,010 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:56:09 CST 2017]; root of context hierarchy
+2017-12-17 15:56:21,178 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-17 15:56:21,180 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-17 15:56:21,181 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-17 15:56:21,181 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-17 15:56:21,183 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-17 15:56:21,185 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,185 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,186 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,186 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,188 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,189 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,189 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,192 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,193 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,194 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,194 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,198 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,198 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,199 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,199 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,200 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,202 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,202 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:56:21,205 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-17 15:56:21,206 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-17 15:56:21,279 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:56:21,280 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:56:21,314 - Detected @ExceptionHandler methods in sellExceptionHandler
+2017-12-17 15:56:21,358 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:56:22,152 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2017-12-17 15:56:22,171 - Registering beans for JMX exposure on startup
+2017-12-17 15:56:22,202 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-17 15:56:22,282 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-17 15:56:22,365 - Using a shared selector for servlet write/read
+2017-12-17 15:56:22,395 - Tomcat started on port(s): 8085 (http)
+2017-12-17 15:56:22,404 - Started App in 14.82 seconds (JVM running for 16.168)
+2017-12-17 15:56:22,404 - 微信订餐项目已经启动...
+2017-12-17 15:56:39,234 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-17 15:56:39,248 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-17 15:56:39,286 - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2017-12-17 15:56:39,494 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 15:56:50,738 - [websocket]有新的链接，总数1
+2017-12-17 15:57:29,427 - [websocket]链接断开，总数0
+2017-12-17 15:57:29,688 - [websocket]有新的链接，总数1
+2017-12-17 15:57:31,522 - [websocket]链接断开，总数0
+2017-12-17 15:57:31,627 - [websocket]有新的链接，总数1
+2017-12-17 15:57:33,934 - [websocket]链接断开，总数0
+2017-12-17 15:57:34,033 - [websocket]有新的链接，总数1
+2017-12-17 15:57:36,906 - [websocket]链接断开，总数0
+2017-12-17 15:57:40,177 - [登录校验] cookie查不到token
+2017-12-17 15:58:09,601 - [websocket]有新的链接，总数1
+2017-12-17 15:58:19,401 - [websocket] 广播消息,message=1513497499389503221
+2017-12-17 15:58:31,138 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:56:09 CST 2017]; root of context hierarchy
+2017-12-17 15:58:31,151 - Unregistering JMX-exposed beans on shutdown
+2017-12-17 15:58:31,164 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:58:31,261 - [websocket]链接断开，总数0
+2017-12-17 15:59:01,288 - Starting App v0.0.1-SNAPSHOT on jiangqianghuadeMacBook-Pro.local with PID 936 (/Users/jiangqianghua/Documents/workspace/wxshop/target/wxshop-0.0.1-SNAPSHOT.jar started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop/target)
+2017-12-17 15:59:01,293 - The following profiles are active: dev
+2017-12-17 15:59:01,404 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:59:01 CST 2017]; root of context hierarchy
+2017-12-17 15:59:02,106 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 15:59:02,995 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:59:03,178 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 15:59:03,260 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 15:59:03,262 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 15:59:03,264 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 15:59:03,265 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 15:59:03,267 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 15:59:05,175 - Tomcat initialized with port(s): 8090 (http)
+2017-12-17 15:59:05,198 - Starting service Tomcat
+2017-12-17 15:59:05,200 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 15:59:05,363 - Initializing Spring embedded WebApplicationContext
+2017-12-17 15:59:05,363 - Root WebApplicationContext: initialization completed in 3959 ms
+2017-12-17 15:59:05,684 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 15:59:05,691 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 15:59:05,692 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 15:59:05,692 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 15:59:05,692 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 15:59:07,069 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:59:07,096 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-17 15:59:07,242 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-17 15:59:07,245 - HHH000206: hibernate.properties not found
+2017-12-17 15:59:07,249 - HHH000021: Bytecode provider name : javassist
+2017-12-17 15:59:07,341 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 15:59:07,717 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-17 15:59:08,594 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 15:59:09,975 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:59:01 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-12-17 15:59:09,977 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-17 15:59:10,554 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:59:01 CST 2017]; root of context hierarchy
+2017-12-17 15:59:10,710 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-17 15:59:10,711 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-17 15:59:10,712 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-17 15:59:10,713 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-17 15:59:10,714 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-17 15:59:10,715 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,716 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,716 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,716 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,719 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,719 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,720 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,723 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,724 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,724 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,724 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,729 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,730 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,731 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,732 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,732 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,734 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,734 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 15:59:10,738 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-17 15:59:10,738 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-17 15:59:10,810 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:59:10,810 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:59:10,850 - Detected @ExceptionHandler methods in sellExceptionHandler
+2017-12-17 15:59:10,973 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 15:59:11,780 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2017-12-17 15:59:11,803 - Registering beans for JMX exposure on startup
+2017-12-17 15:59:11,843 - Initializing ProtocolHandler ["http-nio-8090"]
+2017-12-17 15:59:11,863 - Starting ProtocolHandler ["http-nio-8090"]
+2017-12-17 15:59:11,884 - Using a shared selector for servlet write/read
+2017-12-17 15:59:11,917 - Tomcat started on port(s): 8090 (http)
+2017-12-17 15:59:11,925 - Started App in 11.832 seconds (JVM running for 12.677)
+2017-12-17 15:59:11,925 - 微信订餐项目已经启动...
+2017-12-17 15:59:30,952 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-17 15:59:30,965 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-17 15:59:31,005 - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2017-12-17 15:59:31,247 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 15:59:45,672 - [登录校验] cookie查不到token
+2017-12-17 15:59:57,886 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e2d56bf: startup date [Sun Dec 17 15:59:01 CST 2017]; root of context hierarchy
+2017-12-17 15:59:57,889 - Unregistering JMX-exposed beans on shutdown
+2017-12-17 15:59:57,899 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 16:00:32,160 - Starting App v0.0.1-SNAPSHOT on jiangqianghuadeMacBook-Pro.local with PID 939 (/Users/jiangqianghua/Documents/workspace/wxshop/target/wxshop-0.0.1-SNAPSHOT.jar started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop/target)
+2017-12-17 16:00:32,167 - The following profiles are active: prod
+2017-12-17 16:00:32,282 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fb4f649: startup date [Sun Dec 17 16:00:32 CST 2017]; root of context hierarchy
+2017-12-17 16:00:32,922 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 16:00:33,794 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 16:00:33,987 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 16:00:34,068 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 16:00:34,069 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 16:00:34,071 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 16:00:34,073 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 16:00:34,074 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 16:00:35,777 - Tomcat initialized with port(s): 8085 (http)
+2017-12-17 16:00:35,797 - Starting service Tomcat
+2017-12-17 16:00:35,799 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 16:00:35,933 - Initializing Spring embedded WebApplicationContext
+2017-12-17 16:00:35,934 - Root WebApplicationContext: initialization completed in 3653 ms
+2017-12-17 16:00:36,208 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 16:00:36,215 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 16:00:36,216 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 16:00:36,216 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 16:00:36,216 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 16:00:37,475 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-17 16:00:37,511 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-17 16:00:37,653 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-17 16:00:37,655 - HHH000206: hibernate.properties not found
+2017-12-17 16:00:37,658 - HHH000021: Bytecode provider name : javassist
+2017-12-17 16:00:37,754 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-17 16:00:38,061 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-17 16:00:38,875 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 16:00:40,201 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fb4f649: startup date [Sun Dec 17 16:00:32 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-12-17 16:00:40,209 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-12-17 16:00:40,829 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fb4f649: startup date [Sun Dec 17 16:00:32 CST 2017]; root of context hierarchy
+2017-12-17 16:00:40,998 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2017-12-17 16:00:41,000 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-17 16:00:41,000 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2017-12-17 16:00:41,001 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2017-12-17 16:00:41,002 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2017-12-17 16:00:41,003 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,004 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,004 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,005 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,007 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,008 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,008 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,011 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,012 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,012 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,013 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,016 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,017 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,017 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,017 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,018 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,020 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,020 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2017-12-17 16:00:41,023 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-17 16:00:41,024 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-17 16:00:41,085 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 16:00:41,085 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 16:00:41,120 - Detected @ExceptionHandler methods in sellExceptionHandler
+2017-12-17 16:00:41,175 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-17 16:00:41,945 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2017-12-17 16:00:41,964 - Registering beans for JMX exposure on startup
+2017-12-17 16:00:41,996 - Initializing ProtocolHandler ["http-nio-8085"]
+2017-12-17 16:00:42,025 - Starting ProtocolHandler ["http-nio-8085"]
+2017-12-17 16:00:42,050 - Using a shared selector for servlet write/read
+2017-12-17 16:00:42,082 - Tomcat started on port(s): 8085 (http)
+2017-12-17 16:00:42,091 - Started App in 10.86 seconds (JVM running for 11.732)
+2017-12-17 16:00:42,091 - 微信订餐项目已经启动...
+2017-12-17 16:00:58,718 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-17 16:00:58,731 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-17 16:00:58,765 - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2017-12-17 16:00:58,871 - HHH000397: Using ASTQueryTranslatorFactory
+2017-12-17 16:01:00,160 - [websocket]有新的链接，总数1
+2017-12-17 16:01:15,266 - [websocket]链接断开，总数0
+2017-12-17 16:01:18,419 - [登录校验] cookie查不到token
+2017-12-17 16:01:54,033 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fb4f649: startup date [Sun Dec 17 16:00:32 CST 2017]; root of context hierarchy
+2017-12-17 16:01:54,080 - Unregistering JMX-exposed beans on shutdown
+2017-12-17 16:01:54,089 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-17 16:02:01,282 - Starting App v0.0.1-SNAPSHOT on jiangqianghuadeMacBook-Pro.local with PID 940 (/Users/jiangqianghua/Documents/workspace/wxshop/target/wxshop-0.0.1-SNAPSHOT.jar started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop/target)
+2017-12-17 16:02:01,287 - The following profiles are active: prod1
+2017-12-17 16:02:01,399 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e515669: startup date [Sun Dec 17 16:02:01 CST 2017]; root of context hierarchy
+2017-12-17 16:02:01,991 - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-17 16:02:02,956 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 16:02:03,151 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-17 16:02:03,232 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2017-12-17 16:02:03,233 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2017-12-17 16:02:03,235 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2017-12-17 16:02:03,237 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2017-12-17 16:02:03,238 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2017-12-17 16:02:04,844 - Tomcat initialized with port(s): 8085 (http)
+2017-12-17 16:02:04,863 - Starting service Tomcat
+2017-12-17 16:02:04,865 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-12-17 16:02:05,000 - Initializing Spring embedded WebApplicationContext
+2017-12-17 16:02:05,000 - Root WebApplicationContext: initialization completed in 3601 ms
+2017-12-17 16:02:05,269 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-17 16:02:05,276 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-17 16:02:05,277 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-17 16:02:05,277 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-17 16:02:05,278 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-17 16:02:05,362 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prod1" are currently active).
+2017-12-17 16:02:05,367 - Stopping service Tomcat
+2017-12-17 16:02:05,400 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
