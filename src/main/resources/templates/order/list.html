@@ -2,7 +2,13 @@
 <html>
 	<head>
 	<title>订单列表</title>
-	<#include "../common/header.html">
+	<!-- <#include "../common/header.html"> -->
+			<meta name="viewport" content="width=device-width, 
+	                                      initial-scale=1.0, 
+	                                      maximum-scale=1.0, 
+	                                      user-scalable=no">
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/sell/css/style.css">
 	</head>
 	<body>
 		<div id="wrapper" class="toggled">
@@ -74,5 +80,62 @@
 		</div>
 		</div>  	
 		</div>
+		<!-- 订单新消息弹窗 -->
+		<div class="modal fade" id="mymodal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title" id="myModalLabel">
+								提醒
+							</h4>
+						</div>
+						<div class="modal-body">
+							您有新的订单
+						</div>
+						<div class="modal-footer">
+							 <button onclick="javascript:document.getElementById('notice').pause()" type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+							 <button onclick="location.reload()" type="button" class="btn btn-primary">查看新的订单</button>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		<!-- 订单新消息来，循环播放音乐 -->
+		<audio id="notice" loop="loop">
+			<source src="/sell/mp3/song.mp3" type="audio/mpeg"/>
+		</audio>
+		<!--  以下一定绑定改版本号的js，否则无法弹窗 -->
+		<script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			var webSocket = null ;
+			if('WebSocket' in window){
+				webSocket = new WebSocket("ws://127.0.0.1:8085/sell/webSocket");
+			}else{
+				alert("改浏览器不支持websocket");
+			}
+			webSocket.onopen = function(event){
+				console.log("open websocket");
+			}
+			webSocket.onclose = function(event){
+				console.log("close websocket");
+			}
+			webSocket.onmessage = function(event){
+				console.log("receiver message");
+				// play audio
+				$('#mymodal').modal('show');
+				document.getElementById('notice').play();
+			}
+			
+			webSocket.onerror = function(event){
+				console.log("error websocket");
+			}
+			
+			window.onbeforeunload = function(){
+				webSocket.close();
+			}
+		</script>
 	</body>
 </html>

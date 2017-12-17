@@ -26,11 +26,13 @@ import com.jiang.wxshop.dto.OrderDTO;
 import com.jiang.wxshop.enums.OrderStatusEnum;
 import com.jiang.wxshop.enums.PlayStatusEnum;
 import com.jiang.wxshop.enums.ResultEnum;
+import com.jiang.wxshop.exception.ResponStatusException;
 import com.jiang.wxshop.exception.SellException;
 import com.jiang.wxshop.repository.OrderDetailRepository;
 import com.jiang.wxshop.repository.OrderMasterRepository;
 import com.jiang.wxshop.service.OrderService;
 import com.jiang.wxshop.service.ProductService;
+import com.jiang.wxshop.service.WebSocket;
 import com.jiang.wxshop.utils.KeyUtils;
 @Service
 @Transactional  // 事务
@@ -44,8 +46,11 @@ public class OrderServiceImpl implements OrderService{
 	
 	@Autowired
 	private OrderMasterRepository orderMasterRepository;
-	@Override
 	
+	@Autowired
+	private WebSocket webSocket ;
+	
+	@Override
 	public OrderDTO create(OrderDTO orderDTO) {
 		String orderId = KeyUtils.genUniqueKey();
 		BigDecimal orderAmount = new BigDecimal(BigInteger.ZERO);
@@ -55,6 +60,9 @@ public class OrderServiceImpl implements OrderService{
 			ProductInfo productInfo = productService.findOne(orderDetail.getProductId());
 			if(productInfo == null){
 				throw new SellException(ResultEnum.PRODUCT_NOT_EXIT);
+				
+				// ResponStatusException这个是抛出http状态码403
+				//throw new ResponStatusException();
 			}
 			//2 计算总价
 			orderAmount = productInfo.getProductPrice()
@@ -83,7 +91,8 @@ public class OrderServiceImpl implements OrderService{
 		
 		//5 扣库存
 		productService.descreaseStock(cartDTOList);
-		
+		// 通知给卖家页面,有新的订单
+		webSocket.sendMessage(orderDTO.getOrderId());
 		return orderDTO;
 	}
 
