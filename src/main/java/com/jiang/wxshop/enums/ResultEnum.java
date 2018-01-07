@@ -19,9 +19,11 @@ public enum ResultEnum {
 	PROCUDE_ONSALE_SUCCESS(23,"商品上架成功"),
 	PROCUDE_OFFSALE_SUCCESS(24,"商品下架成功"),
 	PROCUDE_SAVE_SUCCESS(25,"商品提交成功"),
-	CATEGORY_SAVE_SUCCESS(25,"类目提交成功"),
-	LOGIN_ERROR(26,"登录失败，登录信息不正确"),
-	LOGOUT_SUCCESS(27,"登出成功")
+	CATEGORY_SAVE_SUCCESS(26,"类目提交成功"),
+	LOGIN_ERROR(27,"登录失败，登录信息不正确"),
+	LOGOUT_SUCCESS(28,"登出成功"),
+	SECKILL_OVER(29,"秒杀活动结束"),
+	SECKILL_LOCK_ERROR(30,"人太多拉，换个姿势再试试"),
 	;
 	private Integer code ;
 	private String message ; 

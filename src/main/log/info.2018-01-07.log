@@ -1,0 +1,1172 @@
+2018-01-07 19:53:09,407 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 812 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 19:53:09,436 - The following profiles are active: dev
+2018-01-07 19:53:10,596 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c583ecf: startup date [Sun Jan 07 19:53:10 CST 2018]; root of context hierarchy
+2018-01-07 19:53:16,494 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 19:53:20,505 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 19:53:20,826 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 19:53:20,929 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 19:53:20,930 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 19:53:20,931 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 19:53:20,932 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 19:53:20,933 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 19:53:24,143 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 19:53:24,203 - Starting service Tomcat
+2018-01-07 19:53:24,219 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 19:53:24,611 - Initializing Spring embedded WebApplicationContext
+2018-01-07 19:53:24,611 - Root WebApplicationContext: initialization completed in 14015 ms
+2018-01-07 19:53:24,979 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 19:53:25,011 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 19:53:25,012 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 19:53:25,012 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 19:53:25,012 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 19:53:25,013 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 19:53:26,578 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$b6000e7.CGLIB$jpaVendorAdapter$10(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$b6000e7$$FastClassBySpringCGLIB$$654a8c10.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$b6000e7.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.jiang.wxshop.App.main(App.java:19)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 85 common frames omitted
+2018-01-07 19:53:27,079 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 19:53:27,183 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 19:53:27,554 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 19:53:27,557 - HHH000206: hibernate.properties not found
+2018-01-07 19:53:27,561 - HHH000021: Bytecode provider name : javassist
+2018-01-07 19:53:27,777 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 19:53:28,256 - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2018-01-07 19:53:28,265 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2018-01-07 19:53:28,269 - Stopping service Tomcat
+2018-01-07 19:53:28,345 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-07 20:03:53,301 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 847 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 20:03:53,354 - The following profiles are active: dev
+2018-01-07 20:03:53,738 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 20:03:53 CST 2018]; root of context hierarchy
+2018-01-07 20:03:54,386 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 20:03:56,792 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 20:03:57,081 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 20:03:57,150 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 20:03:57,175 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 20:03:57,176 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 20:03:57,177 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 20:03:57,178 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 20:04:01,148 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 20:04:01,185 - Starting service Tomcat
+2018-01-07 20:04:01,187 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 20:04:01,460 - Initializing Spring embedded WebApplicationContext
+2018-01-07 20:04:01,460 - Root WebApplicationContext: initialization completed in 7722 ms
+2018-01-07 20:04:01,931 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 20:04:01,948 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 20:04:01,949 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 20:04:01,949 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 20:04:01,949 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 20:04:01,949 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 20:04:03,887 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 20:04:03,956 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 20:04:04,323 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 20:04:04,353 - HHH000206: hibernate.properties not found
+2018-01-07 20:04:04,357 - HHH000021: Bytecode provider name : javassist
+2018-01-07 20:04:04,549 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 20:04:04,993 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 20:04:06,626 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 20:04:09,739 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 20:04:10,750 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 20:03:53 CST 2018]; root of context hierarchy
+2018-01-07 20:04:10,766 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 20:04:10,952 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 20:04:10,954 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 20:04:10,955 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 20:04:10,956 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 20:04:10,957 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 20:04:10,959 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,959 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,960 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,961 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,963 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,964 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,966 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,972 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,973 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,973 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,974 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,978 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,979 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,979 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,980 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,981 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,984 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,986 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 20:04:10,989 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 20:04:10,990 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 20:04:11,079 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 20:04:11,080 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 20:04:11,128 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 20:04:11,129 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 20:04:11,272 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 20:04:13,155 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 20:04:13,239 - Registering beans for JMX exposure on startup
+2018-01-07 20:04:13,300 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 20:04:13,357 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 20:04:13,455 - Using a shared selector for servlet write/read
+2018-01-07 20:04:13,537 - Tomcat started on port(s): 8085 (http)
+2018-01-07 20:04:13,562 - Started App in 21.969 seconds (JVM running for 24.248)
+2018-01-07 20:04:13,562 - 微信订餐项目已经启动...
+2018-01-07 20:04:41,973 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 20:04:41,986 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 20:04:42,066 - FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+2018-01-07 20:04:42,242 - [登录校验] cookie查不到token
+2018-01-07 20:04:49,282 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-07 20:04:51,192 - [websocket]有新的链接，总数1
+2018-01-07 20:04:57,880 - [websocket]链接断开，总数0
+2018-01-07 20:04:58,014 - [websocket]有新的链接，总数1
+2018-01-07 20:05:00,837 - [websocket]链接断开，总数0
+2018-01-07 20:05:00,971 - [websocket]有新的链接，总数1
+2018-01-07 21:49:21,807 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 961 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 21:49:21,914 - The following profiles are active: dev
+2018-01-07 21:49:22,777 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:49:22 CST 2018]; root of context hierarchy
+2018-01-07 21:49:30,501 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 21:49:33,964 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:49:34,332 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:49:34,462 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 21:49:34,463 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 21:49:34,464 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 21:49:34,465 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 21:49:34,467 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 21:49:37,899 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 21:49:37,958 - Starting service Tomcat
+2018-01-07 21:49:37,960 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 21:49:38,355 - Initializing Spring embedded WebApplicationContext
+2018-01-07 21:49:38,356 - Root WebApplicationContext: initialization completed in 15579 ms
+2018-01-07 21:49:38,887 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 21:49:38,931 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 21:49:38,932 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 21:49:38,932 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 21:49:38,932 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 21:49:38,932 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 21:49:41,311 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:49:41,393 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 21:49:41,660 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 21:49:41,669 - HHH000206: hibernate.properties not found
+2018-01-07 21:49:41,673 - HHH000021: Bytecode provider name : javassist
+2018-01-07 21:49:41,877 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 21:49:42,509 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 21:49:44,048 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:49:46,093 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'seckillController': Unsatisfied dependency expressed through field 'seckillService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jiang.wxshop.service.SeckillService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-01-07 21:49:46,105 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:49:46,135 - Stopping service Tomcat
+2018-01-07 21:49:46,236 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-07 21:50:42,217 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 968 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 21:50:42,236 - The following profiles are active: dev
+2018-01-07 21:50:42,492 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:50:42 CST 2018]; root of context hierarchy
+2018-01-07 21:50:43,172 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 21:50:45,332 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:50:45,537 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:50:45,612 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 21:50:45,614 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 21:50:45,616 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 21:50:45,617 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 21:50:45,635 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 21:50:48,331 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 21:50:48,367 - Starting service Tomcat
+2018-01-07 21:50:48,371 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 21:50:48,635 - Initializing Spring embedded WebApplicationContext
+2018-01-07 21:50:48,636 - Root WebApplicationContext: initialization completed in 6144 ms
+2018-01-07 21:50:49,228 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 21:50:49,375 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 21:50:49,376 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 21:50:49,376 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 21:50:49,377 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 21:50:49,377 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 21:50:51,345 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:50:51,415 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 21:50:51,854 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 21:50:51,856 - HHH000206: hibernate.properties not found
+2018-01-07 21:50:51,859 - HHH000021: Bytecode provider name : javassist
+2018-01-07 21:50:51,941 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 21:50:52,331 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 21:50:53,593 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:50:56,241 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 21:50:57,157 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:50:42 CST 2018]; root of context hierarchy
+2018-01-07 21:50:57,174 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 21:50:57,366 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 21:50:57,367 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 21:50:57,369 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 21:50:57,369 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 21:50:57,371 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 21:50:57,372 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,373 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,374 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,375 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,376 - Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.query(java.lang.String) throws java.lang.Exception
+2018-01-07 21:50:57,380 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,381 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,382 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,385 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,386 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,387 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,388 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,393 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,394 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,394 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,395 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,395 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,401 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,402 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:50:57,405 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 21:50:57,407 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 21:50:57,494 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:50:57,495 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:50:57,553 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 21:50:57,554 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 21:50:57,627 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:50:59,224 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 21:50:59,298 - Registering beans for JMX exposure on startup
+2018-01-07 21:50:59,363 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:50:59,429 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:50:59,561 - Using a shared selector for servlet write/read
+2018-01-07 21:50:59,653 - Tomcat started on port(s): 8085 (http)
+2018-01-07 21:50:59,678 - Started App in 18.994 seconds (JVM running for 20.741)
+2018-01-07 21:50:59,678 - 微信订餐项目已经启动...
+2018-01-07 21:51:28,407 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 21:51:28,448 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 21:51:28,560 - FrameworkServlet 'dispatcherServlet': initialization completed in 112 ms
+2018-01-07 21:53:06,286 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 990 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 21:53:06,296 - The following profiles are active: dev
+2018-01-07 21:53:06,449 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:53:06 CST 2018]; root of context hierarchy
+2018-01-07 21:53:07,370 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 21:53:08,488 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:53:08,707 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:53:08,906 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 21:53:08,909 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 21:53:08,911 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 21:53:08,914 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 21:53:08,916 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 21:53:11,838 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 21:53:11,876 - Starting service Tomcat
+2018-01-07 21:53:11,881 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 21:53:12,217 - Initializing Spring embedded WebApplicationContext
+2018-01-07 21:53:12,217 - Root WebApplicationContext: initialization completed in 5768 ms
+2018-01-07 21:53:12,771 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 21:53:12,782 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 21:53:12,783 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 21:53:12,789 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 21:53:12,790 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 21:53:12,793 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 21:53:14,421 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:53:14,471 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 21:53:14,642 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 21:53:14,645 - HHH000206: hibernate.properties not found
+2018-01-07 21:53:14,648 - HHH000021: Bytecode provider name : javassist
+2018-01-07 21:53:14,722 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 21:53:14,991 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 21:53:16,114 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:53:18,144 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 21:53:19,035 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:53:06 CST 2018]; root of context hierarchy
+2018-01-07 21:53:19,057 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 21:53:19,245 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 21:53:19,247 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 21:53:19,248 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 21:53:19,249 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 21:53:19,250 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 21:53:19,251 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,252 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,253 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,253 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,255 - Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.query(java.lang.String) throws java.lang.Exception
+2018-01-07 21:53:19,255 - Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.skill(java.lang.String) throws java.lang.Exception
+2018-01-07 21:53:19,259 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,261 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,262 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,266 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,267 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,267 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,269 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,273 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,278 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,280 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,282 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,283 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,297 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,298 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:53:19,304 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 21:53:19,305 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 21:53:19,434 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:53:19,434 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:53:19,474 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 21:53:19,477 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 21:53:19,542 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:53:20,980 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 21:53:21,005 - Registering beans for JMX exposure on startup
+2018-01-07 21:53:21,060 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:53:21,090 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:53:21,124 - Using a shared selector for servlet write/read
+2018-01-07 21:53:21,170 - Tomcat started on port(s): 8085 (http)
+2018-01-07 21:53:21,179 - Started App in 16.302 seconds (JVM running for 17.315)
+2018-01-07 21:53:21,179 - 微信订餐项目已经启动...
+2018-01-07 21:53:29,326 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 21:53:29,347 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 21:53:29,394 - FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2018-01-07 21:53:29,496 - @skill request,productId=123456
+2018-01-07 21:54:13,739 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 992 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 21:54:13,753 - The following profiles are active: dev
+2018-01-07 21:54:13,902 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:54:13 CST 2018]; root of context hierarchy
+2018-01-07 21:54:14,557 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 21:54:15,810 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:54:15,987 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:54:16,083 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 21:54:16,084 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 21:54:16,085 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 21:54:16,086 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 21:54:16,086 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 21:54:18,043 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 21:54:18,078 - Starting service Tomcat
+2018-01-07 21:54:18,080 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 21:54:18,368 - Initializing Spring embedded WebApplicationContext
+2018-01-07 21:54:18,368 - Root WebApplicationContext: initialization completed in 4466 ms
+2018-01-07 21:54:18,851 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 21:54:18,859 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 21:54:18,860 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 21:54:18,861 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 21:54:18,861 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 21:54:18,861 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 21:54:20,352 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:54:20,397 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 21:54:20,588 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 21:54:20,590 - HHH000206: hibernate.properties not found
+2018-01-07 21:54:20,593 - HHH000021: Bytecode provider name : javassist
+2018-01-07 21:54:20,664 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 21:54:20,968 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 21:54:21,828 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:54:23,749 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 21:54:24,547 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:54:13 CST 2018]; root of context hierarchy
+2018-01-07 21:54:24,567 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 21:54:24,740 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 21:54:24,742 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 21:54:24,743 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 21:54:24,744 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 21:54:24,745 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 21:54:24,747 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,748 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,748 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,749 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,751 - Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.query(java.lang.String) throws java.lang.Exception
+2018-01-07 21:54:24,751 - Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.skill(java.lang.String) throws java.lang.Exception
+2018-01-07 21:54:24,754 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,755 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,756 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,759 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,761 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,762 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,762 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,767 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,767 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,768 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,769 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,770 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,775 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,776 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:54:24,779 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 21:54:24,779 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 21:54:24,870 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:54:24,871 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:54:24,916 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 21:54:24,917 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 21:54:24,975 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:54:26,230 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 21:54:26,247 - Registering beans for JMX exposure on startup
+2018-01-07 21:54:26,282 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:54:26,307 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:54:26,333 - Using a shared selector for servlet write/read
+2018-01-07 21:54:26,373 - Tomcat started on port(s): 8085 (http)
+2018-01-07 21:54:26,382 - Started App in 13.793 seconds (JVM running for 14.776)
+2018-01-07 21:54:26,382 - 微信订餐项目已经启动...
+2018-01-07 21:54:33,348 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 21:54:33,380 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 21:54:33,435 - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2018-01-07 21:54:35,795 - @skill request,productId=123456
+2018-01-07 21:54:35,833 - @skill request,productId=123456
+2018-01-07 21:54:35,835 - @skill request,productId=123456
+2018-01-07 21:54:35,837 - @skill request,productId=123456
+2018-01-07 21:54:35,835 - @skill request,productId=123456
+2018-01-07 21:54:35,838 - @skill request,productId=123456
+2018-01-07 21:54:35,840 - @skill request,productId=123456
+2018-01-07 21:54:35,843 - @skill request,productId=123456
+2018-01-07 21:54:35,843 - @skill request,productId=123456
+2018-01-07 21:54:35,843 - @skill request,productId=123456
+2018-01-07 21:54:35,973 - @skill request,productId=123456
+2018-01-07 21:54:35,973 - @skill request,productId=123456
+2018-01-07 21:54:35,977 - @skill request,productId=123456
+2018-01-07 21:54:35,973 - @skill request,productId=123456
+2018-01-07 21:54:35,977 - @skill request,productId=123456
+2018-01-07 21:54:35,978 - @skill request,productId=123456
+2018-01-07 21:54:35,981 - @skill request,productId=123456
+2018-01-07 21:54:35,983 - @skill request,productId=123456
+2018-01-07 21:54:35,984 - @skill request,productId=123456
+2018-01-07 21:54:35,986 - @skill request,productId=123456
+2018-01-07 21:54:36,082 - @skill request,productId=123456
+2018-01-07 21:54:36,084 - @skill request,productId=123456
+2018-01-07 21:54:36,097 - @skill request,productId=123456
+2018-01-07 21:54:36,097 - @skill request,productId=123456
+2018-01-07 21:54:36,103 - @skill request,productId=123456
+2018-01-07 21:54:36,103 - @skill request,productId=123456
+2018-01-07 21:54:36,105 - @skill request,productId=123456
+2018-01-07 21:54:36,107 - @skill request,productId=123456
+2018-01-07 21:54:36,109 - @skill request,productId=123456
+2018-01-07 21:54:36,109 - @skill request,productId=123456
+2018-01-07 21:54:36,192 - @skill request,productId=123456
+2018-01-07 21:54:36,194 - @skill request,productId=123456
+2018-01-07 21:54:36,205 - @skill request,productId=123456
+2018-01-07 21:54:36,206 - @skill request,productId=123456
+2018-01-07 21:54:36,213 - @skill request,productId=123456
+2018-01-07 21:54:36,213 - @skill request,productId=123456
+2018-01-07 21:54:36,214 - @skill request,productId=123456
+2018-01-07 21:54:36,216 - @skill request,productId=123456
+2018-01-07 21:54:36,220 - @skill request,productId=123456
+2018-01-07 21:54:36,220 - @skill request,productId=123456
+2018-01-07 21:54:36,304 - @skill request,productId=123456
+2018-01-07 21:54:36,305 - @skill request,productId=123456
+2018-01-07 21:54:36,316 - @skill request,productId=123456
+2018-01-07 21:54:36,318 - @skill request,productId=123456
+2018-01-07 21:54:36,334 - @skill request,productId=123456
+2018-01-07 21:54:36,335 - @skill request,productId=123456
+2018-01-07 21:54:36,334 - @skill request,productId=123456
+2018-01-07 21:54:36,335 - @skill request,productId=123456
+2018-01-07 21:54:36,338 - @skill request,productId=123456
+2018-01-07 21:54:36,338 - @skill request,productId=123456
+2018-01-07 21:54:36,415 - @skill request,productId=123456
+2018-01-07 21:54:36,415 - @skill request,productId=123456
+2018-01-07 21:54:36,425 - @skill request,productId=123456
+2018-01-07 21:54:36,429 - @skill request,productId=123456
+2018-01-07 21:54:36,450 - @skill request,productId=123456
+2018-01-07 21:54:36,451 - @skill request,productId=123456
+2018-01-07 21:54:36,452 - @skill request,productId=123456
+2018-01-07 21:54:36,453 - @skill request,productId=123456
+2018-01-07 21:54:36,455 - @skill request,productId=123456
+2018-01-07 21:54:36,455 - @skill request,productId=123456
+2018-01-07 21:54:36,524 - @skill request,productId=123456
+2018-01-07 21:54:36,525 - @skill request,productId=123456
+2018-01-07 21:54:36,531 - @skill request,productId=123456
+2018-01-07 21:54:36,538 - @skill request,productId=123456
+2018-01-07 21:54:36,557 - @skill request,productId=123456
+2018-01-07 21:54:36,562 - @skill request,productId=123456
+2018-01-07 21:54:36,565 - @skill request,productId=123456
+2018-01-07 21:54:36,567 - @skill request,productId=123456
+2018-01-07 21:54:36,567 - @skill request,productId=123456
+2018-01-07 21:54:36,570 - @skill request,productId=123456
+2018-01-07 21:54:36,635 - @skill request,productId=123456
+2018-01-07 21:54:36,635 - @skill request,productId=123456
+2018-01-07 21:54:36,641 - @skill request,productId=123456
+2018-01-07 21:54:36,647 - @skill request,productId=123456
+2018-01-07 21:54:36,666 - @skill request,productId=123456
+2018-01-07 21:54:36,669 - @skill request,productId=123456
+2018-01-07 21:54:36,675 - @skill request,productId=123456
+2018-01-07 21:54:36,676 - @skill request,productId=123456
+2018-01-07 21:54:36,676 - @skill request,productId=123456
+2018-01-07 21:54:36,712 - @skill request,productId=123456
+2018-01-07 21:54:36,741 - @skill request,productId=123456
+2018-01-07 21:54:36,741 - @skill request,productId=123456
+2018-01-07 21:54:36,750 - @skill request,productId=123456
+2018-01-07 21:54:36,755 - @skill request,productId=123456
+2018-01-07 21:54:36,774 - @skill request,productId=123456
+2018-01-07 21:54:36,777 - @skill request,productId=123456
+2018-01-07 21:54:36,784 - @skill request,productId=123456
+2018-01-07 21:54:36,784 - @skill request,productId=123456
+2018-01-07 21:54:36,786 - @skill request,productId=123456
+2018-01-07 21:54:36,819 - @skill request,productId=123456
+2018-01-07 21:54:36,851 - @skill request,productId=123456
+2018-01-07 21:54:36,852 - @skill request,productId=123456
+2018-01-07 21:54:36,859 - @skill request,productId=123456
+2018-01-07 21:54:36,864 - @skill request,productId=123456
+2018-01-07 21:54:36,883 - @skill request,productId=123456
+2018-01-07 21:54:36,886 - @skill request,productId=123456
+2018-01-07 21:54:36,890 - @skill request,productId=123456
+2018-01-07 21:54:36,890 - @skill request,productId=123456
+2018-01-07 21:54:36,896 - @skill request,productId=123456
+2018-01-07 21:54:36,929 - @skill request,productId=123456
+2018-01-07 21:56:20,982 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 993 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 21:56:20,989 - The following profiles are active: dev
+2018-01-07 21:56:21,137 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:56:21 CST 2018]; root of context hierarchy
+2018-01-07 21:56:21,922 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 21:56:22,972 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:56:23,161 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 21:56:23,225 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 21:56:23,226 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 21:56:23,228 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 21:56:23,229 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 21:56:23,230 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 21:56:25,179 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 21:56:25,204 - Starting service Tomcat
+2018-01-07 21:56:25,207 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 21:56:25,461 - Initializing Spring embedded WebApplicationContext
+2018-01-07 21:56:25,461 - Root WebApplicationContext: initialization completed in 4324 ms
+2018-01-07 21:56:25,880 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 21:56:25,893 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 21:56:25,894 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 21:56:25,895 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 21:56:25,895 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 21:56:25,895 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 21:56:27,393 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:56:27,427 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 21:56:27,571 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 21:56:27,574 - HHH000206: hibernate.properties not found
+2018-01-07 21:56:27,577 - HHH000021: Bytecode provider name : javassist
+2018-01-07 21:56:27,639 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 21:56:27,867 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 21:56:28,757 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 21:56:30,447 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 21:56:31,223 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 21:56:21 CST 2018]; root of context hierarchy
+2018-01-07 21:56:31,242 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 21:56:31,407 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 21:56:31,409 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 21:56:31,409 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 21:56:31,410 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 21:56:31,411 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 21:56:31,413 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,413 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,414 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,415 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,417 - Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.query(java.lang.String) throws java.lang.Exception
+2018-01-07 21:56:31,418 - Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public synchronized java.lang.String com.jiang.wxshop.controller.SeckillController.skill(java.lang.String) throws java.lang.Exception
+2018-01-07 21:56:31,421 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,422 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,423 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,426 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,427 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,428 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,429 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,433 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,434 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,435 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,436 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,437 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,444 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,445 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 21:56:31,448 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 21:56:31,449 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 21:56:31,547 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:56:31,547 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:56:31,591 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 21:56:31,593 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 21:56:31,651 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 21:56:32,936 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 21:56:32,954 - Registering beans for JMX exposure on startup
+2018-01-07 21:56:32,991 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:56:33,017 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 21:56:33,044 - Using a shared selector for servlet write/read
+2018-01-07 21:56:33,092 - Tomcat started on port(s): 8085 (http)
+2018-01-07 21:56:33,102 - Started App in 13.487 seconds (JVM running for 14.654)
+2018-01-07 21:56:33,102 - 微信订餐项目已经启动...
+2018-01-07 21:56:47,797 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 21:56:47,812 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 21:56:47,849 - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-01-07 21:56:53,412 - @skill request,productId=123456
+2018-01-07 21:56:53,556 - @skill request,productId=123456
+2018-01-07 21:56:53,660 - @skill request,productId=123456
+2018-01-07 21:56:53,764 - @skill request,productId=123456
+2018-01-07 21:56:53,870 - @skill request,productId=123456
+2018-01-07 21:56:53,973 - @skill request,productId=123456
+2018-01-07 21:56:54,077 - @skill request,productId=123456
+2018-01-07 21:56:54,180 - @skill request,productId=123456
+2018-01-07 21:56:54,285 - @skill request,productId=123456
+2018-01-07 21:56:54,390 - @skill request,productId=123456
+2018-01-07 21:56:54,493 - @skill request,productId=123456
+2018-01-07 21:56:54,598 - @skill request,productId=123456
+2018-01-07 21:56:54,703 - @skill request,productId=123456
+2018-01-07 21:56:54,807 - @skill request,productId=123456
+2018-01-07 21:56:54,912 - @skill request,productId=123456
+2018-01-07 21:56:55,018 - @skill request,productId=123456
+2018-01-07 21:56:55,123 - @skill request,productId=123456
+2018-01-07 21:56:55,227 - @skill request,productId=123456
+2018-01-07 21:56:55,333 - @skill request,productId=123456
+2018-01-07 21:56:55,438 - @skill request,productId=123456
+2018-01-07 21:56:55,542 - @skill request,productId=123456
+2018-01-07 21:56:55,648 - @skill request,productId=123456
+2018-01-07 21:56:55,750 - @skill request,productId=123456
+2018-01-07 21:56:55,856 - @skill request,productId=123456
+2018-01-07 21:56:55,959 - @skill request,productId=123456
+2018-01-07 21:56:56,065 - @skill request,productId=123456
+2018-01-07 21:56:56,168 - @skill request,productId=123456
+2018-01-07 21:56:56,272 - @skill request,productId=123456
+2018-01-07 21:56:56,378 - @skill request,productId=123456
+2018-01-07 21:56:56,482 - @skill request,productId=123456
+2018-01-07 21:56:56,585 - @skill request,productId=123456
+2018-01-07 21:56:56,689 - @skill request,productId=123456
+2018-01-07 21:56:56,794 - @skill request,productId=123456
+2018-01-07 21:56:56,898 - @skill request,productId=123456
+2018-01-07 21:56:57,002 - @skill request,productId=123456
+2018-01-07 21:56:57,106 - @skill request,productId=123456
+2018-01-07 21:56:57,210 - @skill request,productId=123456
+2018-01-07 21:56:57,315 - @skill request,productId=123456
+2018-01-07 21:56:57,419 - @skill request,productId=123456
+2018-01-07 21:56:57,524 - @skill request,productId=123456
+2018-01-07 21:56:57,628 - @skill request,productId=123456
+2018-01-07 21:56:57,730 - @skill request,productId=123456
+2018-01-07 21:56:57,833 - @skill request,productId=123456
+2018-01-07 21:56:57,938 - @skill request,productId=123456
+2018-01-07 21:56:58,042 - @skill request,productId=123456
+2018-01-07 21:56:58,148 - @skill request,productId=123456
+2018-01-07 21:56:58,250 - @skill request,productId=123456
+2018-01-07 21:56:58,354 - @skill request,productId=123456
+2018-01-07 21:56:58,459 - @skill request,productId=123456
+2018-01-07 21:56:58,564 - @skill request,productId=123456
+2018-01-07 21:56:58,668 - @skill request,productId=123456
+2018-01-07 21:56:58,770 - @skill request,productId=123456
+2018-01-07 21:56:58,873 - @skill request,productId=123456
+2018-01-07 21:56:58,978 - @skill request,productId=123456
+2018-01-07 21:56:59,082 - @skill request,productId=123456
+2018-01-07 21:56:59,186 - @skill request,productId=123456
+2018-01-07 21:56:59,292 - @skill request,productId=123456
+2018-01-07 21:56:59,395 - @skill request,productId=123456
+2018-01-07 21:56:59,500 - @skill request,productId=123456
+2018-01-07 21:56:59,604 - @skill request,productId=123456
+2018-01-07 21:56:59,708 - @skill request,productId=123456
+2018-01-07 21:56:59,813 - @skill request,productId=123456
+2018-01-07 21:56:59,917 - @skill request,productId=123456
+2018-01-07 21:57:00,020 - @skill request,productId=123456
+2018-01-07 21:57:00,124 - @skill request,productId=123456
+2018-01-07 21:57:00,228 - @skill request,productId=123456
+2018-01-07 21:57:00,330 - @skill request,productId=123456
+2018-01-07 21:57:00,433 - @skill request,productId=123456
+2018-01-07 21:57:00,537 - @skill request,productId=123456
+2018-01-07 21:57:00,642 - @skill request,productId=123456
+2018-01-07 21:57:00,744 - @skill request,productId=123456
+2018-01-07 21:57:00,850 - @skill request,productId=123456
+2018-01-07 21:57:00,955 - @skill request,productId=123456
+2018-01-07 21:57:01,060 - @skill request,productId=123456
+2018-01-07 21:57:01,164 - @skill request,productId=123456
+2018-01-07 21:57:01,268 - @skill request,productId=123456
+2018-01-07 21:57:01,370 - @skill request,productId=123456
+2018-01-07 21:57:01,474 - @skill request,productId=123456
+2018-01-07 21:57:01,578 - @skill request,productId=123456
+2018-01-07 21:57:01,679 - @skill request,productId=123456
+2018-01-07 21:57:01,785 - @skill request,productId=123456
+2018-01-07 21:57:01,889 - @skill request,productId=123456
+2018-01-07 21:57:01,992 - @skill request,productId=123456
+2018-01-07 21:57:02,096 - @skill request,productId=123456
+2018-01-07 21:57:02,200 - @skill request,productId=123456
+2018-01-07 21:57:02,305 - @skill request,productId=123456
+2018-01-07 21:57:02,409 - @skill request,productId=123456
+2018-01-07 21:57:02,513 - @skill request,productId=123456
+2018-01-07 21:57:02,617 - @skill request,productId=123456
+2018-01-07 21:57:02,721 - @skill request,productId=123456
+2018-01-07 21:57:02,826 - @skill request,productId=123456
+2018-01-07 21:57:02,931 - @skill request,productId=123456
+2018-01-07 21:57:03,035 - @skill request,productId=123456
+2018-01-07 21:57:03,139 - @skill request,productId=123456
+2018-01-07 21:57:03,243 - @skill request,productId=123456
+2018-01-07 21:57:03,348 - @skill request,productId=123456
+2018-01-07 21:57:03,452 - @skill request,productId=123456
+2018-01-07 21:57:03,557 - @skill request,productId=123456
+2018-01-07 21:57:03,660 - @skill request,productId=123456
+2018-01-07 21:57:03,764 - @skill request,productId=123456
+2018-01-07 22:30:32,548 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 1009 (/Users/jiangqianghua/Documents/workspace/wxshop/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/wxshop)
+2018-01-07 22:30:32,602 - The following profiles are active: dev
+2018-01-07 22:30:32,935 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 22:30:32 CST 2018]; root of context hierarchy
+2018-01-07 22:30:33,738 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-07 22:30:36,398 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 22:30:36,622 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-07 22:30:36,678 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductInfoRepository.
+2018-01-07 22:30:36,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.SellerInfoRepository.
+2018-01-07 22:30:36,681 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderMasterRepository.
+2018-01-07 22:30:36,682 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.OrderDetailRepository.
+2018-01-07 22:30:36,683 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.wxshop.repository.ProductCategoryRepository.
+2018-01-07 22:30:39,536 - Tomcat initialized with port(s): 8085 (http)
+2018-01-07 22:30:39,571 - Starting service Tomcat
+2018-01-07 22:30:39,574 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-07 22:30:40,040 - Initializing Spring embedded WebApplicationContext
+2018-01-07 22:30:40,040 - Root WebApplicationContext: initialization completed in 7105 ms
+2018-01-07 22:30:40,638 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-07 22:30:40,661 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-07 22:30:40,662 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-07 22:30:40,662 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-07 22:30:40,662 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-07 22:30:40,663 - Mapping filter: 'corsFilter' to: [/*]
+2018-01-07 22:30:42,573 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-07 22:30:42,646 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-07 22:30:43,006 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-07 22:30:43,008 - HHH000206: hibernate.properties not found
+2018-01-07 22:30:43,010 - HHH000021: Bytecode provider name : javassist
+2018-01-07 22:30:43,112 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-07 22:30:43,583 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-07 22:30:45,053 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-07 22:30:47,515 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-07 22:30:48,432 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@67545b57: startup date [Sun Jan 07 22:30:32 CST 2018]; root of context hierarchy
+2018-01-07 22:30:48,450 - Detected ResponseBodyAdvice bean in jsonpAdvice
+2018-01-07 22:30:48,625 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.Map<java.lang.String, java.lang.String>> com.jiang.wxshop.controller.BuyerOrderController.create(com.jiang.wxshop.form.OrderForm,org.springframework.validation.BindingResult)
+2018-01-07 22:30:48,627 - Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<java.util.List<com.jiang.wxshop.dto.OrderDTO>> com.jiang.wxshop.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-01-07 22:30:48,628 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-01-07 22:30:48,629 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo<com.jiang.wxshop.dto.OrderDTO> com.jiang.wxshop.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-01-07 22:30:48,630 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.jiang.wxshop.vo.ResultVo com.jiang.wxshop.controller.BuyerProductController.list()
+2018-01-07 22:30:48,632 - Mapped "{[/list]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,632 - Mapped "{[/map]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.map(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,633 - Mapped "{[/role]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.role(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,633 - Mapped "{[/welcome]}" onto public java.lang.String com.jiang.wxshop.controller.FreeMarkerController.hello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,637 - Mapped "{[/skill/query/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.query(java.lang.String) throws java.lang.Exception
+2018-01-07 22:30:48,638 - Mapped "{[/skill/order/{productId}],methods=[GET]}" onto public java.lang.String com.jiang.wxshop.controller.SeckillController.skill(java.lang.String) throws java.lang.Exception
+2018-01-07 22:30:48,643 - Mapped "{[/seller/category/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.index(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,644 - Mapped "{[/seller/category/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,644 - Mapped "{[/seller/category/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerCategoryController.save(com.jiang.wxshop.form.CategoryForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,648 - Mapped "{[/seller/order/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,649 - Mapped "{[/seller/order/cancel],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.cancel(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,650 - Mapped "{[/seller/order/detial],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.detail(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,651 - Mapped "{[/seller/order/finish],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerOrderController.finish(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,657 - Mapped "{[/seller/product/index],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.index(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,658 - Mapped "{[/seller/product/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,659 - Mapped "{[/seller/product/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.save(com.jiang.wxshop.form.ProductForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,659 - Mapped "{[/seller/product/on_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.onSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,660 - Mapped "{[/seller/product/off_sale],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerProductController.offSale(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,667 - Mapped "{[/seller/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.login(java.lang.String,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,668 - Mapped "{[/seller/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.jiang.wxshop.controller.SellerUserController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-07 22:30:48,672 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-07 22:30:48,673 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-07 22:30:48,771 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 22:30:48,771 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 22:30:48,816 - Detected @ExceptionHandler methods in sellExceptionHandler
+2018-01-07 22:30:48,817 - Detected ResponseBodyAdvice implementation in jsonpAdvice
+2018-01-07 22:30:48,889 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-07 22:30:50,397 - Registering @ServerEndpoint class: class com.jiang.wxshop.service.WebSocket
+2018-01-07 22:30:50,472 - Registering beans for JMX exposure on startup
+2018-01-07 22:30:50,559 - Initializing ProtocolHandler ["http-nio-8085"]
+2018-01-07 22:30:50,605 - Starting ProtocolHandler ["http-nio-8085"]
+2018-01-07 22:30:50,633 - Using a shared selector for servlet write/read
+2018-01-07 22:30:50,717 - Tomcat started on port(s): 8085 (http)
+2018-01-07 22:30:50,751 - Started App in 20.436 seconds (JVM running for 22.861)
+2018-01-07 22:30:50,751 - 微信订餐项目已经启动...
+2018-01-07 22:30:54,761 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-07 22:30:54,762 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-07 22:30:54,977 - FrameworkServlet 'dispatcherServlet': initialization completed in 215 ms
+2018-01-07 22:30:55,140 - @skill request,productId=123456
+2018-01-07 22:30:56,697 - @skill request,productId=123456
+2018-01-07 22:30:58,025 - @skill request,productId=123456
+2018-01-07 22:30:59,450 - @skill request,productId=123456
+2018-01-07 22:31:03,487 - @skill request,productId=123456
+2018-01-07 22:31:03,492 - @skill request,productId=123456
+2018-01-07 22:31:03,504 - @skill request,productId=123456
+2018-01-07 22:31:03,506 - @skill request,productId=123456
+2018-01-07 22:31:03,504 - @skill request,productId=123456
+2018-01-07 22:31:03,508 - @skill request,productId=123456
+2018-01-07 22:31:03,510 - @skill request,productId=123456
+2018-01-07 22:31:03,515 - @skill request,productId=123456
+2018-01-07 22:31:03,515 - @skill request,productId=123456
+2018-01-07 22:31:03,516 - @skill request,productId=123456
+2018-01-07 22:31:03,606 - @skill request,productId=123456
+2018-01-07 22:31:03,714 - @skill request,productId=123456
+2018-01-07 22:31:03,714 - @skill request,productId=123456
+2018-01-07 22:31:03,714 - @skill request,productId=123456
+2018-01-07 22:31:03,722 - @skill request,productId=123456
+2018-01-07 22:31:03,722 - @skill request,productId=123456
+2018-01-07 22:31:03,722 - @skill request,productId=123456
+2018-01-07 22:31:03,726 - @skill request,productId=123456
+2018-01-07 22:31:03,730 - @skill request,productId=123456
+2018-01-07 22:31:03,743 - @skill request,productId=123456
+2018-01-07 22:31:03,747 - @skill request,productId=123456
+2018-01-07 22:31:03,747 - @skill request,productId=123456
+2018-01-07 22:31:03,753 - @skill request,productId=123456
+2018-01-07 22:31:03,759 - @skill request,productId=123456
+2018-01-07 22:31:03,759 - @skill request,productId=123456
+2018-01-07 22:31:03,759 - @skill request,productId=123456
+2018-01-07 22:31:03,764 - @skill request,productId=123456
+2018-01-07 22:31:03,764 - @skill request,productId=123456
+2018-01-07 22:31:03,772 - @skill request,productId=123456
+2018-01-07 22:31:03,772 - @skill request,productId=123456
+2018-01-07 22:31:03,772 - @skill request,productId=123456
+2018-01-07 22:31:03,780 - @skill request,productId=123456
+2018-01-07 22:31:03,794 - @skill request,productId=123456
+2018-01-07 22:31:03,799 - @skill request,productId=123456
+2018-01-07 22:31:03,801 - @skill request,productId=123456
+2018-01-07 22:31:03,803 - @skill request,productId=123456
+2018-01-07 22:31:03,804 - @skill request,productId=123456
+2018-01-07 22:31:03,804 - @skill request,productId=123456
+2018-01-07 22:31:03,809 - @skill request,productId=123456
+2018-01-07 22:31:03,812 - @skill request,productId=123456
+2018-01-07 22:31:03,812 - @skill request,productId=123456
+2018-01-07 22:31:03,813 - @skill request,productId=123456
+2018-01-07 22:31:03,813 - @skill request,productId=123456
+2018-01-07 22:31:03,816 - @skill request,productId=123456
+2018-01-07 22:31:03,825 - @skill request,productId=123456
+2018-01-07 22:31:03,828 - @skill request,productId=123456
+2018-01-07 22:31:03,831 - @skill request,productId=123456
+2018-01-07 22:31:03,832 - @skill request,productId=123456
+2018-01-07 22:31:03,832 - @skill request,productId=123456
+2018-01-07 22:31:03,840 - @skill request,productId=123456
+2018-01-07 22:31:03,842 - @skill request,productId=123456
+2018-01-07 22:31:03,853 - @skill request,productId=123456
+2018-01-07 22:31:03,853 - @skill request,productId=123456
+2018-01-07 22:31:03,855 - @skill request,productId=123456
+2018-01-07 22:31:03,856 - @skill request,productId=123456
+2018-01-07 22:31:03,868 - @skill request,productId=123456
+2018-01-07 22:31:03,868 - @skill request,productId=123456
+2018-01-07 22:31:03,868 - @skill request,productId=123456
+2018-01-07 22:31:03,870 - @skill request,productId=123456
+2018-01-07 22:31:03,875 - @skill request,productId=123456
+2018-01-07 22:31:03,886 - @skill request,productId=123456
+2018-01-07 22:31:03,887 - @skill request,productId=123456
+2018-01-07 22:31:03,894 - @skill request,productId=123456
+2018-01-07 22:31:03,894 - @skill request,productId=123456
+2018-01-07 22:31:03,895 - @skill request,productId=123456
+2018-01-07 22:31:03,896 - @skill request,productId=123456
+2018-01-07 22:31:03,897 - @skill request,productId=123456
+2018-01-07 22:31:03,897 - @skill request,productId=123456
+2018-01-07 22:31:03,902 - @skill request,productId=123456
+2018-01-07 22:31:03,902 - @skill request,productId=123456
+2018-01-07 22:31:03,906 - @skill request,productId=123456
+2018-01-07 22:31:03,914 - @skill request,productId=123456
+2018-01-07 22:31:03,921 - @skill request,productId=123456
+2018-01-07 22:31:03,936 - @skill request,productId=123456
+2018-01-07 22:31:03,936 - @skill request,productId=123456
+2018-01-07 22:31:03,936 - @skill request,productId=123456
+2018-01-07 22:31:03,938 - @skill request,productId=123456
+2018-01-07 22:31:03,940 - @skill request,productId=123456
+2018-01-07 22:31:03,941 - @skill request,productId=123456
+2018-01-07 22:31:03,942 - @skill request,productId=123456
+2018-01-07 22:31:03,942 - @skill request,productId=123456
+2018-01-07 22:31:03,939 - @skill request,productId=123456
+2018-01-07 22:31:03,951 - @skill request,productId=123456
+2018-01-07 22:31:03,951 - @skill request,productId=123456
+2018-01-07 22:31:03,953 - @skill request,productId=123456
+2018-01-07 22:31:03,956 - @skill request,productId=123456
+2018-01-07 22:31:03,959 - @skill request,productId=123456
+2018-01-07 22:31:03,961 - @skill request,productId=123456
+2018-01-07 22:31:03,961 - @skill request,productId=123456
+2018-01-07 22:31:03,963 - @skill request,productId=123456
+2018-01-07 22:31:03,964 - @skill request,productId=123456
+2018-01-07 22:31:03,970 - @skill request,productId=123456
+2018-01-07 22:31:03,972 - @skill request,productId=123456
+2018-01-07 22:31:03,973 - @skill request,productId=123456
+2018-01-07 22:31:03,985 - @skill request,productId=123456
+2018-01-07 22:31:03,985 - @skill request,productId=123456
+2018-01-07 22:31:03,986 - @skill request,productId=123456
+2018-01-07 22:31:03,988 - @skill request,productId=123456
+2018-01-07 22:31:03,991 - @skill request,productId=123456
+2018-01-07 22:31:03,993 - @skill request,productId=123456
+2018-01-07 22:31:06,108 - @skill request,productId=123456
+2018-01-07 22:31:09,209 - @skill request,productId=123456
+2018-01-07 22:31:09,210 - @skill request,productId=123456
+2018-01-07 22:31:09,213 - @skill request,productId=123456
+2018-01-07 22:31:09,215 - @skill request,productId=123456
+2018-01-07 22:31:09,215 - @skill request,productId=123456
+2018-01-07 22:31:09,217 - @skill request,productId=123456
+2018-01-07 22:31:09,218 - @skill request,productId=123456
+2018-01-07 22:31:09,220 - @skill request,productId=123456
+2018-01-07 22:31:09,226 - @skill request,productId=123456
+2018-01-07 22:31:09,229 - @skill request,productId=123456
+2018-01-07 22:31:09,255 - @skill request,productId=123456
+2018-01-07 22:31:09,256 - @skill request,productId=123456
+2018-01-07 22:31:09,260 - @skill request,productId=123456
+2018-01-07 22:31:09,265 - @skill request,productId=123456
+2018-01-07 22:31:09,265 - @skill request,productId=123456
+2018-01-07 22:31:09,267 - @skill request,productId=123456
+2018-01-07 22:31:09,272 - @skill request,productId=123456
+2018-01-07 22:31:09,283 - @skill request,productId=123456
+2018-01-07 22:31:09,284 - @skill request,productId=123456
+2018-01-07 22:31:09,292 - @skill request,productId=123456
+2018-01-07 22:31:09,295 - @skill request,productId=123456
+2018-01-07 22:31:09,296 - @skill request,productId=123456
+2018-01-07 22:31:09,309 - @skill request,productId=123456
+2018-01-07 22:31:09,309 - @skill request,productId=123456
+2018-01-07 22:31:09,312 - @skill request,productId=123456
+2018-01-07 22:31:09,316 - @skill request,productId=123456
+2018-01-07 22:31:09,322 - @skill request,productId=123456
+2018-01-07 22:31:09,323 - @skill request,productId=123456
+2018-01-07 22:31:09,324 - @skill request,productId=123456
+2018-01-07 22:31:09,327 - @skill request,productId=123456
+2018-01-07 22:31:09,336 - @skill request,productId=123456
+2018-01-07 22:31:09,344 - @skill request,productId=123456
+2018-01-07 22:31:09,344 - @skill request,productId=123456
+2018-01-07 22:31:09,350 - @skill request,productId=123456
+2018-01-07 22:31:09,350 - @skill request,productId=123456
+2018-01-07 22:31:09,352 - @skill request,productId=123456
+2018-01-07 22:31:09,354 - @skill request,productId=123456
+2018-01-07 22:31:09,357 - @skill request,productId=123456
+2018-01-07 22:31:09,358 - @skill request,productId=123456
+2018-01-07 22:31:09,369 - @skill request,productId=123456
+2018-01-07 22:31:09,370 - @skill request,productId=123456
+2018-01-07 22:31:09,375 - @skill request,productId=123456
+2018-01-07 22:31:09,377 - @skill request,productId=123456
+2018-01-07 22:31:09,378 - @skill request,productId=123456
+2018-01-07 22:31:09,380 - @skill request,productId=123456
+2018-01-07 22:31:09,385 - @skill request,productId=123456
+2018-01-07 22:31:09,386 - @skill request,productId=123456
+2018-01-07 22:31:09,388 - @skill request,productId=123456
+2018-01-07 22:31:09,403 - @skill request,productId=123456
+2018-01-07 22:31:09,409 - @skill request,productId=123456
+2018-01-07 22:31:09,409 - @skill request,productId=123456
+2018-01-07 22:31:09,412 - @skill request,productId=123456
+2018-01-07 22:31:09,416 - @skill request,productId=123456
+2018-01-07 22:31:09,417 - @skill request,productId=123456
+2018-01-07 22:31:09,421 - @skill request,productId=123456
+2018-01-07 22:31:09,431 - @skill request,productId=123456
+2018-01-07 22:31:09,431 - @skill request,productId=123456
+2018-01-07 22:31:09,437 - @skill request,productId=123456
+2018-01-07 22:31:09,437 - @skill request,productId=123456
+2018-01-07 22:31:09,437 - @skill request,productId=123456
+2018-01-07 22:31:09,440 - @skill request,productId=123456
+2018-01-07 22:31:09,440 - @skill request,productId=123456
+2018-01-07 22:31:09,445 - @skill request,productId=123456
+2018-01-07 22:31:09,452 - @skill request,productId=123456
+2018-01-07 22:31:09,459 - @skill request,productId=123456
+2018-01-07 22:31:09,459 - @skill request,productId=123456
+2018-01-07 22:31:09,466 - @skill request,productId=123456
+2018-01-07 22:31:09,466 - @skill request,productId=123456
+2018-01-07 22:31:09,467 - @skill request,productId=123456
+2018-01-07 22:31:09,479 - @skill request,productId=123456
+2018-01-07 22:31:09,480 - @skill request,productId=123456
+2018-01-07 22:31:09,479 - @skill request,productId=123456
+2018-01-07 22:31:09,481 - @skill request,productId=123456
+2018-01-07 22:31:09,480 - @skill request,productId=123456
+2018-01-07 22:31:09,486 - @skill request,productId=123456
+2018-01-07 22:31:09,499 - @skill request,productId=123456
+2018-01-07 22:31:09,499 - @skill request,productId=123456
+2018-01-07 22:31:09,504 - @skill request,productId=123456
+2018-01-07 22:31:09,506 - @skill request,productId=123456
+2018-01-07 22:31:09,507 - @skill request,productId=123456
+2018-01-07 22:31:09,507 - @skill request,productId=123456
+2018-01-07 22:31:09,509 - @skill request,productId=123456
+2018-01-07 22:31:09,511 - @skill request,productId=123456
+2018-01-07 22:31:09,512 - @skill request,productId=123456
+2018-01-07 22:31:09,514 - @skill request,productId=123456
+2018-01-07 22:31:09,526 - @skill request,productId=123456
+2018-01-07 22:31:09,532 - @skill request,productId=123456
+2018-01-07 22:31:09,534 - @skill request,productId=123456
+2018-01-07 22:31:09,535 - @skill request,productId=123456
+2018-01-07 22:31:09,538 - @skill request,productId=123456
+2018-01-07 22:31:09,543 - @skill request,productId=123456
+2018-01-07 22:31:09,543 - @skill request,productId=123456
+2018-01-07 22:31:09,549 - @skill request,productId=123456
+2018-01-07 22:31:09,550 - @skill request,productId=123456
+2018-01-07 22:31:09,555 - @skill request,productId=123456
+2018-01-07 22:31:09,560 - @skill request,productId=123456
+2018-01-07 22:31:09,560 - @skill request,productId=123456
+2018-01-07 22:31:09,564 - @skill request,productId=123456
+2018-01-07 22:31:09,567 - @skill request,productId=123456
+2018-01-07 22:31:09,568 - @skill request,productId=123456
+2018-01-07 22:31:11,788 - @skill request,productId=123456
+2018-01-07 22:31:14,449 - @skill request,productId=123456
+2018-01-07 22:31:14,450 - @skill request,productId=123456
+2018-01-07 22:31:14,451 - @skill request,productId=123456
+2018-01-07 22:31:14,453 - @skill request,productId=123456
+2018-01-07 22:31:14,457 - @skill request,productId=123456
+2018-01-07 22:31:14,457 - @skill request,productId=123456
+2018-01-07 22:31:14,460 - @skill request,productId=123456
+2018-01-07 22:31:14,462 - @skill request,productId=123456
+2018-01-07 22:31:14,464 - @skill request,productId=123456
+2018-01-07 22:31:14,466 - @skill request,productId=123456
+2018-01-07 22:31:14,475 - @skill request,productId=123456
+2018-01-07 22:31:14,478 - @skill request,productId=123456
+2018-01-07 22:31:14,482 - @skill request,productId=123456
+2018-01-07 22:31:14,488 - @skill request,productId=123456
+2018-01-07 22:31:14,493 - @skill request,productId=123456
+2018-01-07 22:31:14,493 - @skill request,productId=123456
+2018-01-07 22:31:14,496 - @skill request,productId=123456
+2018-01-07 22:31:14,497 - @skill request,productId=123456
+2018-01-07 22:31:14,498 - @skill request,productId=123456
+2018-01-07 22:31:14,515 - @skill request,productId=123456
+2018-01-07 22:31:14,519 - @skill request,productId=123456
+2018-01-07 22:31:14,537 - @skill request,productId=123456
+2018-01-07 22:31:14,549 - @skill request,productId=123456
+2018-01-07 22:31:14,558 - @skill request,productId=123456
+2018-01-07 22:31:14,559 - @skill request,productId=123456
+2018-01-07 22:31:14,563 - @skill request,productId=123456
+2018-01-07 22:31:14,564 - @skill request,productId=123456
+2018-01-07 22:31:14,565 - @skill request,productId=123456
+2018-01-07 22:31:14,569 - @skill request,productId=123456
+2018-01-07 22:31:14,570 - @skill request,productId=123456
+2018-01-07 22:31:14,572 - @skill request,productId=123456
+2018-01-07 22:31:14,589 - @skill request,productId=123456
+2018-01-07 22:31:14,589 - @skill request,productId=123456
+2018-01-07 22:31:14,591 - @skill request,productId=123456
+2018-01-07 22:31:14,598 - @skill request,productId=123456
+2018-01-07 22:31:14,598 - @skill request,productId=123456
+2018-01-07 22:31:14,598 - @skill request,productId=123456
+2018-01-07 22:31:14,602 - @skill request,productId=123456
+2018-01-07 22:31:14,603 - @skill request,productId=123456
+2018-01-07 22:31:14,604 - @skill request,productId=123456
+2018-01-07 22:31:14,611 - @skill request,productId=123456
+2018-01-07 22:31:14,611 - @skill request,productId=123456
+2018-01-07 22:31:14,612 - @skill request,productId=123456
+2018-01-07 22:31:14,614 - @skill request,productId=123456
+2018-01-07 22:31:14,635 - @skill request,productId=123456
+2018-01-07 22:31:14,642 - @skill request,productId=123456
+2018-01-07 22:31:14,643 - @skill request,productId=123456
+2018-01-07 22:31:14,643 - @skill request,productId=123456
+2018-01-07 22:31:14,651 - @skill request,productId=123456
+2018-01-07 22:31:14,660 - @skill request,productId=123456
+2018-01-07 22:31:14,661 - @skill request,productId=123456
+2018-01-07 22:31:14,660 - @skill request,productId=123456
+2018-01-07 22:31:14,663 - @skill request,productId=123456
+2018-01-07 22:31:14,661 - @skill request,productId=123456
+2018-01-07 22:31:14,674 - @skill request,productId=123456
+2018-01-07 22:31:14,674 - @skill request,productId=123456
+2018-01-07 22:31:14,699 - @skill request,productId=123456
+2018-01-07 22:31:14,702 - @skill request,productId=123456
+2018-01-07 22:31:14,704 - @skill request,productId=123456
+2018-01-07 22:31:14,707 - @skill request,productId=123456
+2018-01-07 22:31:14,707 - @skill request,productId=123456
+2018-01-07 22:31:14,713 - @skill request,productId=123456
+2018-01-07 22:31:14,713 - @skill request,productId=123456
+2018-01-07 22:31:14,713 - @skill request,productId=123456
+2018-01-07 22:31:14,724 - @skill request,productId=123456
+2018-01-07 22:31:14,728 - @skill request,productId=123456
+2018-01-07 22:31:14,729 - @skill request,productId=123456
+2018-01-07 22:31:14,729 - @skill request,productId=123456
+2018-01-07 22:31:14,729 - @skill request,productId=123456
+2018-01-07 22:31:14,730 - @skill request,productId=123456
+2018-01-07 22:31:14,751 - @skill request,productId=123456
+2018-01-07 22:31:14,752 - @skill request,productId=123456
+2018-01-07 22:31:14,752 - @skill request,productId=123456
+2018-01-07 22:31:14,752 - @skill request,productId=123456
+2018-01-07 22:31:14,754 - @skill request,productId=123456
+2018-01-07 22:31:14,754 - @skill request,productId=123456
+2018-01-07 22:31:14,754 - @skill request,productId=123456
+2018-01-07 22:31:14,755 - @skill request,productId=123456
+2018-01-07 22:31:14,762 - @skill request,productId=123456
+2018-01-07 22:31:14,766 - @skill request,productId=123456
+2018-01-07 22:31:14,769 - @skill request,productId=123456
+2018-01-07 22:31:14,769 - @skill request,productId=123456
+2018-01-07 22:31:14,770 - @skill request,productId=123456
+2018-01-07 22:31:14,771 - @skill request,productId=123456
+2018-01-07 22:31:14,771 - @skill request,productId=123456
+2018-01-07 22:31:14,774 - @skill request,productId=123456
+2018-01-07 22:31:14,776 - @skill request,productId=123456
+2018-01-07 22:31:14,786 - @skill request,productId=123456
+2018-01-07 22:31:14,786 - @skill request,productId=123456
+2018-01-07 22:31:14,786 - @skill request,productId=123456
+2018-01-07 22:31:14,787 - @skill request,productId=123456
+2018-01-07 22:31:14,788 - @skill request,productId=123456
+2018-01-07 22:31:14,788 - @skill request,productId=123456
+2018-01-07 22:31:14,788 - @skill request,productId=123456
+2018-01-07 22:31:14,794 - @skill request,productId=123456
+2018-01-07 22:31:14,795 - @skill request,productId=123456
+2018-01-07 22:31:14,800 - @skill request,productId=123456
+2018-01-07 22:31:14,808 - @skill request,productId=123456
+2018-01-07 22:31:14,808 - @skill request,productId=123456
+2018-01-07 22:31:14,808 - @skill request,productId=123456
+2018-01-07 22:31:16,361 - @skill request,productId=123456

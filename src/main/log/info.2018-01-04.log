@@ -1,0 +1,626 @@
+2018-01-04 21:54:41,272 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 553 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 21:54:41,291 - The following profiles are active: dev
+2018-01-04 21:54:41,386 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:54:41 CST 2018]; root of context hierarchy
+2018-01-04 21:54:42,076 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 21:54:42,572 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 21:54:43,787 - Tomcat initialized with port(s): 8084 (http)
+2018-01-04 21:54:43,812 - Starting service Tomcat
+2018-01-04 21:54:43,813 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 21:54:44,003 - Initializing Spring embedded WebApplicationContext
+2018-01-04 21:54:44,004 - Root WebApplicationContext: initialization completed in 2618 ms
+2018-01-04 21:54:44,323 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 21:54:44,331 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 21:54:44,332 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 21:54:44,333 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 21:54:44,333 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 21:54:45,004 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:54:41 CST 2018]; root of context hierarchy
+2018-01-04 21:54:45,138 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 21:54:45,142 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 21:54:45,208 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:54:45,209 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:54:45,301 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:54:46,028 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 21:54:46,556 - Registering beans for JMX exposure on startup
+2018-01-04 21:54:46,585 - Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:54:46,619 - Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:54:46,649 - Using a shared selector for servlet write/read
+2018-01-04 21:54:46,698 - Tomcat started on port(s): 8084 (http)
+2018-01-04 21:54:46,710 - Started App in 6.229 seconds (JVM running for 7.233)
+2018-01-04 21:54:46,710 - MyNews项目已经启动...
+2018-01-04 21:55:00,738 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 554 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 21:55:00,750 -- The following profiles are active: dev
+2018-01-04 21:55:00,853 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:00 CST 2018]; root of context hierarchy
+2018-01-04 21:55:01,463 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 21:55:02,143 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 21:55:03,434 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 21:55:03,459 -- Starting service Tomcat
+2018-01-04 21:55:03,460 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 21:55:03,646 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 21:55:03,646 -- Root WebApplicationContext: initialization completed in 2793 ms
+2018-01-04 21:55:03,941 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 21:55:03,953 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 21:55:03,954 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 21:55:03,954 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 21:55:03,955 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 21:55:04,635 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:00 CST 2018]; root of context hierarchy
+2018-01-04 21:55:04,764 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 21:55:04,766 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 21:55:04,831 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:04,831 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:04,925 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:05,638 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 21:55:06,123 -- Registering beans for JMX exposure on startup
+2018-01-04 21:55:06,150 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:06,175 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:06,209 -- Using a shared selector for servlet write/read
+2018-01-04 21:55:06,251 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 21:55:06,259 -- Started App in 6.313 seconds (JVM running for 6.982)
+2018-01-04 21:55:06,259 -- MyNews项目已经启动...
+2018-01-04 21:55:32,477 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 555 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 21:55:32,483 -- The following profiles are active: dev
+2018-01-04 21:55:32,595 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:32 CST 2018]; root of context hierarchy
+2018-01-04 21:55:33,128 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 21:55:33,801 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 21:55:35,009 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 21:55:35,034 -- Starting service Tomcat
+2018-01-04 21:55:35,036 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 21:55:35,207 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 21:55:35,208 -- Root WebApplicationContext: initialization completed in 2613 ms
+2018-01-04 21:55:35,530 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 21:55:35,537 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 21:55:35,538 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 21:55:35,538 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 21:55:35,538 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 21:55:36,192 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:32 CST 2018]; root of context hierarchy
+2018-01-04 21:55:36,340 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 21:55:36,351 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 21:55:36,428 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:36,429 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:36,521 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:37,319 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 21:55:37,810 -- Registering beans for JMX exposure on startup
+2018-01-04 21:55:37,838 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:37,869 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:37,902 -- Using a shared selector for servlet write/read
+2018-01-04 21:55:37,948 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 21:55:37,957 -- Started App in 6.322 seconds (JVM running for 6.953)
+2018-01-04 21:55:37,964 -- MyNews项目已经启动...
+2018-01-04 21:55:51,189 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 556 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 21:55:51,213 -- The following profiles are active: dev
+2018-01-04 21:55:51,331 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:51 CST 2018]; root of context hierarchy
+2018-01-04 21:55:52,006 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 21:55:52,569 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 21:55:53,760 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 21:55:53,783 -- Starting service Tomcat
+2018-01-04 21:55:53,788 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 21:55:53,954 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 21:55:53,955 -- Root WebApplicationContext: initialization completed in 2624 ms
+2018-01-04 21:55:54,255 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 21:55:54,263 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 21:55:54,264 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 21:55:54,266 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 21:55:54,266 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 21:55:54,918 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 21:55:51 CST 2018]; root of context hierarchy
+2018-01-04 21:55:55,061 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 21:55:55,064 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 21:55:55,150 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:55,150 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:55,244 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 21:55:56,068 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 21:55:56,627 -- Registering beans for JMX exposure on startup
+2018-01-04 21:55:56,659 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:56,680 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 21:55:56,710 -- Using a shared selector for servlet write/read
+2018-01-04 21:55:56,750 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 21:55:56,759 -- Started App in 6.406 seconds (JVM running for 7.162)
+2018-01-04 21:55:56,759 -- MyNews项目已经启动...
+2018-01-04 22:13:21,466 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 598 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:13:21,515 -- The following profiles are active: dev
+2018-01-04 22:13:21,872 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:13:21 CST 2018]; root of context hierarchy
+2018-01-04 22:13:22,848 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:13:25,220 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:13:27,314 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:13:27,338 -- Starting service Tomcat
+2018-01-04 22:13:27,342 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:13:27,869 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:13:27,882 -- Root WebApplicationContext: initialization completed in 6010 ms
+2018-01-04 22:13:28,188 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:13:28,212 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:13:28,213 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:13:28,213 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:13:28,213 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:13:29,057 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:13:21 CST 2018]; root of context hierarchy
+2018-01-04 22:13:29,234 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:13:29,236 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:13:29,301 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:13:29,301 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:13:29,402 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:13:30,531 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:13:31,048 -- Registering beans for JMX exposure on startup
+2018-01-04 22:13:31,133 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:13:31,213 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:13:31,257 -- Using a shared selector for servlet write/read
+2018-01-04 22:13:31,325 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:13:31,358 -- Started App in 12.433 seconds (JVM running for 15.192)
+2018-01-04 22:13:31,358 -- MyNews项目已经启动...
+2018-01-04 22:13:36,256 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:13:36,271 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:13:36,323 -- FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2018-01-04 22:15:31,800 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 602 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:15:31,809 -- The following profiles are active: dev
+2018-01-04 22:15:31,916 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:15:31 CST 2018]; root of context hierarchy
+2018-01-04 22:15:32,892 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:15:33,294 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:15:34,627 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:15:34,648 -- Starting service Tomcat
+2018-01-04 22:15:34,650 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:15:34,890 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:15:34,891 -- Root WebApplicationContext: initialization completed in 2975 ms
+2018-01-04 22:15:35,184 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:15:35,191 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:15:35,191 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:15:35,191 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:15:35,192 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:15:35,921 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:15:31 CST 2018]; root of context hierarchy
+2018-01-04 22:15:36,064 -- Mapped "{[/user/uploadfile]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage()
+2018-01-04 22:15:36,070 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:15:36,071 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:15:36,139 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:15:36,140 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:15:36,234 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:15:37,059 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:15:37,567 -- Registering beans for JMX exposure on startup
+2018-01-04 22:15:37,601 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:15:37,624 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:15:37,654 -- Using a shared selector for servlet write/read
+2018-01-04 22:15:37,722 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:15:37,744 -- Started App in 7.133 seconds (JVM running for 7.824)
+2018-01-04 22:15:37,744 -- MyNews项目已经启动...
+2018-01-04 22:15:41,669 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:15:41,669 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:15:41,697 -- FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-01-04 22:16:35,506 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 603 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:16:35,523 -- The following profiles are active: dev
+2018-01-04 22:16:35,643 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:16:35 CST 2018]; root of context hierarchy
+2018-01-04 22:16:36,240 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:16:36,892 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:16:38,222 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:16:38,245 -- Starting service Tomcat
+2018-01-04 22:16:38,247 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:16:38,456 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:16:38,457 -- Root WebApplicationContext: initialization completed in 2814 ms
+2018-01-04 22:16:38,767 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:16:38,778 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:16:38,779 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:16:38,779 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:16:38,779 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:16:39,444 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:16:35 CST 2018]; root of context hierarchy
+2018-01-04 22:16:39,603 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage()
+2018-01-04 22:16:39,609 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:16:39,610 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:16:39,678 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:16:39,678 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:16:39,769 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:16:40,561 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:16:41,107 -- Registering beans for JMX exposure on startup
+2018-01-04 22:16:41,139 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:16:41,162 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:16:41,190 -- Using a shared selector for servlet write/read
+2018-01-04 22:16:41,243 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:16:41,253 -- Started App in 6.571 seconds (JVM running for 7.313)
+2018-01-04 22:16:41,254 -- MyNews项目已经启动...
+2018-01-04 22:16:53,872 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:16:53,872 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:16:53,907 -- FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-01-04 22:17:13,614 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 604 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:17:13,622 -- The following profiles are active: dev
+2018-01-04 22:17:13,760 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:17:13 CST 2018]; root of context hierarchy
+2018-01-04 22:17:14,874 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:17:15,495 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:17:17,055 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:17:17,083 -- Starting service Tomcat
+2018-01-04 22:17:17,085 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:17:17,300 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:17:17,300 -- Root WebApplicationContext: initialization completed in 3540 ms
+2018-01-04 22:17:17,622 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:17:17,630 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:17:17,631 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:17:17,631 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:17:17,631 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:17:18,446 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:17:13 CST 2018]; root of context hierarchy
+2018-01-04 22:17:18,587 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage()
+2018-01-04 22:17:18,593 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:17:18,594 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:17:18,671 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:17:18,671 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:17:18,768 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:17:19,636 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:17:20,254 -- Registering beans for JMX exposure on startup
+2018-01-04 22:17:20,333 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:17:20,361 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:17:20,391 -- Using a shared selector for servlet write/read
+2018-01-04 22:17:20,434 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:17:20,443 -- Started App in 7.785 seconds (JVM running for 8.635)
+2018-01-04 22:17:20,443 -- MyNews项目已经启动...
+2018-01-04 22:17:26,967 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:17:27,000 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:17:27,035 -- FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2018-01-04 22:19:04,031 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 605 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:19:04,054 -- The following profiles are active: dev
+2018-01-04 22:19:04,251 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:19:04 CST 2018]; root of context hierarchy
+2018-01-04 22:19:04,918 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:19:05,712 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:19:07,470 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:19:07,502 -- Starting service Tomcat
+2018-01-04 22:19:07,506 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:19:07,713 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:19:07,713 -- Root WebApplicationContext: initialization completed in 3462 ms
+2018-01-04 22:19:08,043 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:19:08,054 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:19:08,055 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:19:08,089 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:19:08,090 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:19:08,904 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:19:04 CST 2018]; root of context hierarchy
+2018-01-04 22:19:09,053 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:19:09,059 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:19:09,061 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:19:09,137 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:19:09,138 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:19:09,236 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:19:10,110 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:19:10,698 -- Registering beans for JMX exposure on startup
+2018-01-04 22:19:10,726 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:19:10,747 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:19:10,786 -- Using a shared selector for servlet write/read
+2018-01-04 22:19:10,836 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:19:10,849 -- Started App in 7.971 seconds (JVM running for 9.122)
+2018-01-04 22:19:10,849 -- MyNews项目已经启动...
+2018-01-04 22:19:11,582 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:19:11,582 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:19:11,621 -- FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-01-04 22:22:05,314 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 607 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:22:05,324 -- The following profiles are active: dev
+2018-01-04 22:22:05,524 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:22:05 CST 2018]; root of context hierarchy
+2018-01-04 22:22:06,210 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:22:07,098 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:22:08,468 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:22:08,492 -- Starting service Tomcat
+2018-01-04 22:22:08,493 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:22:08,682 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:22:08,682 -- Root WebApplicationContext: initialization completed in 3158 ms
+2018-01-04 22:22:09,033 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:22:09,043 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:22:09,044 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:22:09,044 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:22:09,044 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:22:09,767 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:22:05 CST 2018]; root of context hierarchy
+2018-01-04 22:22:09,921 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:22:09,972 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:22:09,974 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:22:10,066 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:22:10,067 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:22:10,172 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:22:11,071 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:22:11,704 -- Registering beans for JMX exposure on startup
+2018-01-04 22:22:11,732 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:22:11,754 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:22:11,784 -- Using a shared selector for servlet write/read
+2018-01-04 22:22:11,834 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:22:11,846 -- Started App in 7.863 seconds (JVM running for 8.912)
+2018-01-04 22:22:11,846 -- MyNews项目已经启动...
+2018-01-04 22:22:22,506 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:22:22,506 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:22:22,533 -- FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-01-04 22:34:29,332 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 615 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:34:29,359 -- The following profiles are active: dev
+2018-01-04 22:34:29,682 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:34:29 CST 2018]; root of context hierarchy
+2018-01-04 22:34:30,689 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:34:32,443 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:34:34,358 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:34:34,385 -- Starting service Tomcat
+2018-01-04 22:34:34,387 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:34:34,669 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:34:34,669 -- Root WebApplicationContext: initialization completed in 4987 ms
+2018-01-04 22:34:35,077 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:34:35,106 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:34:35,107 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:34:35,108 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:34:35,108 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:34:36,050 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46b61c56: startup date [Thu Jan 04 22:34:29 CST 2018]; root of context hierarchy
+2018-01-04 22:34:36,256 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:34:36,271 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 22:34:36,286 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:34:36,287 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:34:36,377 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:34:36,378 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:34:36,481 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:34:37,695 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:34:38,295 -- Registering beans for JMX exposure on startup
+2018-01-04 22:34:38,375 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:34:38,408 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:34:38,444 -- Using a shared selector for servlet write/read
+2018-01-04 22:34:38,523 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:34:38,545 -- Started App in 11.041 seconds (JVM running for 13.213)
+2018-01-04 22:34:38,545 -- MyNews项目已经启动...
+2018-01-04 22:34:43,220 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:34:43,236 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:34:43,291 -- FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2018-01-04 22:36:19,481 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 633 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:36:19,500 -- The following profiles are active: dev
+2018-01-04 22:36:19,597 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:36:19 CST 2018]; root of context hierarchy
+2018-01-04 22:36:20,429 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:36:20,926 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:36:22,198 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:36:22,222 -- Starting service Tomcat
+2018-01-04 22:36:22,224 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:36:22,450 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:36:22,450 -- Root WebApplicationContext: initialization completed in 2853 ms
+2018-01-04 22:36:22,766 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:36:22,775 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:36:22,776 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:36:22,776 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:36:22,776 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:36:23,530 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:36:19 CST 2018]; root of context hierarchy
+2018-01-04 22:36:23,695 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 22:36:23,697 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:36:23,705 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:36:23,707 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:36:23,776 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:36:23,776 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:36:23,868 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:36:24,635 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:36:25,164 -- Registering beans for JMX exposure on startup
+2018-01-04 22:36:25,191 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:36:25,213 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:36:25,239 -- Using a shared selector for servlet write/read
+2018-01-04 22:36:25,280 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:36:25,288 -- Started App in 6.595 seconds (JVM running for 7.604)
+2018-01-04 22:36:25,288 -- MyNews项目已经启动...
+2018-01-04 22:36:32,629 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:36:32,668 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:36:32,717 -- FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2018-01-04 22:37:08,118 -- Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [111] milliseconds.
+2018-01-04 22:44:23,226 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 657 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:44:23,259 -- The following profiles are active: dev
+2018-01-04 22:44:23,375 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:44:23 CST 2018]; root of context hierarchy
+2018-01-04 22:44:24,155 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:44:24,698 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:44:26,080 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:44:26,104 -- Starting service Tomcat
+2018-01-04 22:44:26,106 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:44:26,305 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:44:26,306 -- Root WebApplicationContext: initialization completed in 2930 ms
+2018-01-04 22:44:26,587 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:44:26,606 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:44:26,607 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:44:26,608 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:44:26,608 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:44:27,266 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:44:23 CST 2018]; root of context hierarchy
+2018-01-04 22:44:27,387 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 22:44:27,390 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:44:27,392 -- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'uploadController' method 
+public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+to {[/user/uploadfile],methods=[POST]}: There is already 'uploadController' bean method
+public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) mapped.
+2018-01-04 22:44:27,430 -- Stopping service Tomcat
+2018-01-04 22:44:27,494 -- 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-04 22:44:53,252 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 658 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:44:53,258 -- The following profiles are active: dev
+2018-01-04 22:44:53,451 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:44:53 CST 2018]; root of context hierarchy
+2018-01-04 22:44:53,808 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:44:54,764 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:44:55,968 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:44:55,988 -- Starting service Tomcat
+2018-01-04 22:44:55,992 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:44:56,192 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:44:56,192 -- Root WebApplicationContext: initialization completed in 2741 ms
+2018-01-04 22:44:56,515 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:44:56,523 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:44:56,526 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:44:56,527 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:44:56,527 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:44:57,198 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:44:53 CST 2018]; root of context hierarchy
+2018-01-04 22:44:57,332 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:44:57,334 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 22:44:57,334 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 22:44:57,338 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:44:57,339 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:44:57,406 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:44:57,407 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:44:57,495 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:44:58,365 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:44:58,874 -- Registering beans for JMX exposure on startup
+2018-01-04 22:44:58,899 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:44:58,922 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:44:58,953 -- Using a shared selector for servlet write/read
+2018-01-04 22:44:58,995 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:44:59,016 -- Started App in 6.631 seconds (JVM running for 7.284)
+2018-01-04 22:44:59,016 -- MyNews项目已经启动...
+2018-01-04 22:45:05,182 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:45:05,225 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:45:05,255 -- FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-01-04 22:46:54,664 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 662 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 22:46:54,680 -- The following profiles are active: dev
+2018-01-04 22:46:54,832 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:46:54 CST 2018]; root of context hierarchy
+2018-01-04 22:46:55,632 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 22:46:56,152 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 22:46:57,457 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 22:46:57,484 -- Starting service Tomcat
+2018-01-04 22:46:57,486 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 22:46:57,693 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 22:46:57,693 -- Root WebApplicationContext: initialization completed in 2861 ms
+2018-01-04 22:46:58,038 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 22:46:58,046 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 22:46:58,047 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 22:46:58,048 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 22:46:58,048 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 22:46:58,790 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 22:46:54 CST 2018]; root of context hierarchy
+2018-01-04 22:46:58,918 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 22:46:58,920 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 22:46:58,921 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 22:46:58,926 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 22:46:58,928 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 22:46:58,991 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:46:59,012 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:46:59,104 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 22:46:59,864 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 22:47:00,372 -- Registering beans for JMX exposure on startup
+2018-01-04 22:47:00,398 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:47:00,420 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 22:47:00,455 -- Using a shared selector for servlet write/read
+2018-01-04 22:47:00,503 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 22:47:00,521 -- Started App in 7.241 seconds (JVM running for 8.27)
+2018-01-04 22:47:00,521 -- MyNews项目已经启动...
+2018-01-04 22:47:04,233 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 22:47:04,267 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 22:47:04,293 -- FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-01-04 23:07:02,462 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 675 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 23:07:02,490 -- The following profiles are active: dev
+2018-01-04 23:07:02,746 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:07:02 CST 2018]; root of context hierarchy
+2018-01-04 23:07:03,549 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 23:07:05,095 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 23:07:06,954 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 23:07:06,979 -- Starting service Tomcat
+2018-01-04 23:07:06,982 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 23:07:07,220 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 23:07:07,221 -- Root WebApplicationContext: initialization completed in 4475 ms
+2018-01-04 23:07:07,630 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 23:07:07,675 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 23:07:07,676 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 23:07:07,676 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 23:07:07,676 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 23:07:08,569 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:07:02 CST 2018]; root of context hierarchy
+2018-01-04 23:07:08,778 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 23:07:08,782 -- Mapped "{[/user/batchupload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPages(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:07:08,784 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:07:08,786 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 23:07:08,787 -- Mapped "{[/user/batchuploadfiles]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.batchUpload(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:07:08,795 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:07:08,837 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 23:07:08,989 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:07:08,991 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:07:09,153 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:07:10,485 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 23:07:11,032 -- Registering beans for JMX exposure on startup
+2018-01-04 23:07:11,115 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:07:11,152 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:07:11,182 -- Using a shared selector for servlet write/read
+2018-01-04 23:07:11,241 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 23:07:11,265 -- Started App in 10.747 seconds (JVM running for 12.214)
+2018-01-04 23:07:11,266 -- MyNews项目已经启动...
+2018-01-04 23:07:40,651 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 23:07:40,651 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 23:07:40,696 -- FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2018-01-04 23:12:21,631 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 696 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 23:12:21,650 -- The following profiles are active: dev
+2018-01-04 23:12:21,765 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:12:21 CST 2018]; root of context hierarchy
+2018-01-04 23:12:22,530 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 23:12:23,202 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 23:12:24,349 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 23:12:24,371 -- Starting service Tomcat
+2018-01-04 23:12:24,373 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 23:12:24,587 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 23:12:24,588 -- Root WebApplicationContext: initialization completed in 2823 ms
+2018-01-04 23:12:24,915 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 23:12:24,923 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 23:12:24,924 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 23:12:24,925 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 23:12:24,925 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 23:12:25,667 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:12:21 CST 2018]; root of context hierarchy
+2018-01-04 23:12:25,806 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:12:25,808 -- Mapped "{[/user/batchupload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPages(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:12:25,808 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 23:12:25,809 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 23:12:25,809 -- Mapped "{[/user/batchuploadfiles]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.batchUpload(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:12:25,814 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:12:25,815 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 23:12:25,881 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:12:25,881 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:12:25,968 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:12:26,775 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 23:12:27,310 -- Registering beans for JMX exposure on startup
+2018-01-04 23:12:27,337 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:12:27,360 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:12:27,390 -- Using a shared selector for servlet write/read
+2018-01-04 23:12:27,432 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 23:12:27,440 -- Started App in 7.258 seconds (JVM running for 8.296)
+2018-01-04 23:12:27,441 -- MyNews项目已经启动...
+2018-01-04 23:12:36,137 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 23:12:36,173 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 23:12:36,199 -- FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-01-04 23:13:33,751 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 698 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 23:13:33,759 -- The following profiles are active: dev
+2018-01-04 23:13:33,910 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:13:33 CST 2018]; root of context hierarchy
+2018-01-04 23:13:34,486 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 23:13:35,262 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 23:13:36,868 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 23:13:36,895 -- Starting service Tomcat
+2018-01-04 23:13:36,897 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 23:13:37,103 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 23:13:37,103 -- Root WebApplicationContext: initialization completed in 3193 ms
+2018-01-04 23:13:40,708 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 23:13:40,730 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 23:13:40,732 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 23:13:40,733 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 23:13:40,733 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 23:13:41,495 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@481ba2cf: startup date [Thu Jan 04 23:13:33 CST 2018]; root of context hierarchy
+2018-01-04 23:13:41,699 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:13:41,701 -- Mapped "{[/user/batchupload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPages(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:13:41,702 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 23:13:41,702 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 23:13:41,703 -- Mapped "{[/user/batchuploadfiles]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.batchUpload(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:13:41,707 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:13:41,708 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 23:13:41,777 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:13:41,778 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:13:41,870 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:13:42,796 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 23:13:43,368 -- Registering beans for JMX exposure on startup
+2018-01-04 23:13:43,397 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:13:43,425 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:13:43,456 -- Using a shared selector for servlet write/read
+2018-01-04 23:13:43,501 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 23:13:43,510 -- Started App in 10.764 seconds (JVM running for 11.945)
+2018-01-04 23:13:43,510 -- MyNews项目已经启动...
+2018-01-04 23:14:11,900 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 23:14:11,942 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 23:14:11,972 -- FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-01-04 23:23:45,143 -- Starting App on jiangqianghuadeMacBook-Pro.local with PID 702 (/Users/jiangqianghua/Documents/workspace/MyNews/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/MyNews)
+2018-01-04 23:23:45,176 -- The following profiles are active: dev
+2018-01-04 23:23:45,516 -- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1efe439d: startup date [Thu Jan 04 23:23:45 CST 2018]; root of context hierarchy
+2018-01-04 23:23:46,132 -- HV000001: Hibernate Validator 5.3.5.Final
+2018-01-04 23:23:47,944 -- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-04 23:23:56,763 -- Tomcat initialized with port(s): 8084 (http)
+2018-01-04 23:23:56,807 -- Starting service Tomcat
+2018-01-04 23:23:56,809 -- Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-04 23:23:57,313 -- Initializing Spring embedded WebApplicationContext
+2018-01-04 23:23:57,313 -- Root WebApplicationContext: initialization completed in 11798 ms
+2018-01-04 23:24:01,161 -- Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-04 23:24:01,190 -- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-04 23:24:01,191 -- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-04 23:24:01,191 -- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-04 23:24:01,191 -- Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-04 23:24:02,049 -- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1efe439d: startup date [Thu Jan 04 23:23:45 CST 2018]; root of context hierarchy
+2018-01-04 23:24:02,221 -- Mapped "{[/user/upload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPage(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:24:02,223 -- Mapped "{[/user/batchupload]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.goUpLoadPages(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-04 23:24:02,224 -- Mapped "{[/user/uploadfile1],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-01-04 23:24:02,224 -- Mapped "{[/user/uploadfile],methods=[POST]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.uploadfile(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-01-04 23:24:02,224 -- Mapped "{[/user/batchuploadfiles]}" onto public java.lang.String com.jiang.cn.MyNews.controller.UploadController.batchUpload(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:24:02,229 -- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-04 23:24:02,230 -- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-04 23:24:02,307 -- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:24:02,308 -- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:24:02,460 -- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-04 23:24:03,643 -- ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-04 23:24:04,207 -- Registering beans for JMX exposure on startup
+2018-01-04 23:24:04,287 -- Initializing ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:24:04,334 -- Starting ProtocolHandler ["http-nio-8084"]
+2018-01-04 23:24:04,362 -- Using a shared selector for servlet write/read
+2018-01-04 23:24:04,411 -- Tomcat started on port(s): 8084 (http)
+2018-01-04 23:24:04,434 -- Started App in 21.29 seconds (JVM running for 23.514)
+2018-01-04 23:24:04,434 -- MyNews项目已经启动...
+2018-01-04 23:24:06,243 -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-04 23:24:06,244 -- FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-04 23:24:06,288 -- FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms

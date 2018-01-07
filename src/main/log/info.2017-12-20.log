@@ -1,0 +1,3 @@
+2017-12-20 00:42:35,736 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c583ecf: startup date [Tue Dec 19 22:39:06 CST 2017]; root of context hierarchy
+2017-12-20 00:42:35,955 - Unregistering JMX-exposed beans on shutdown
+2017-12-20 00:42:36,143 - Closing JPA EntityManagerFactory for persistence unit 'default'
