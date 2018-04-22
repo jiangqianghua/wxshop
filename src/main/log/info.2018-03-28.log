@@ -1,0 +1,81 @@
+2018-03-28 22:23:45,300 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 982 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-03-28 22:23:45,306 - The following profiles are active: dev
+2018-03-28 22:23:45,777 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Mar 28 22:23:45 CST 2018]; root of context hierarchy
+2018-03-28 22:23:46,510 - HV000001: Hibernate Validator 5.3.5.Final
+2018-03-28 22:23:55,746 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-28 22:23:57,208 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-28 22:23:57,750 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-03-28 22:23:57,752 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-03-28 22:24:08,444 - Tomcat initialized with port(s): 8086 (http)
+2018-03-28 22:24:08,649 - Starting service Tomcat
+2018-03-28 22:24:08,708 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-28 22:24:11,608 - Initializing Spring embedded WebApplicationContext
+2018-03-28 22:24:11,609 - Root WebApplicationContext: initialization completed in 25832 ms
+2018-03-28 22:24:12,193 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-28 22:24:12,245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-28 22:24:12,246 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-28 22:24:12,246 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-28 22:24:12,246 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-28 22:24:21,399 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:24:21,927 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-28 22:24:25,597 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-03-28 22:24:25,620 - HHH000206: hibernate.properties not found
+2018-03-28 22:24:25,665 - HHH000021: Bytecode provider name : javassist
+2018-03-28 22:24:27,101 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-28 22:24:29,879 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-28 22:24:40,225 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-28 22:24:49,770 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Mar 28 22:23:45 CST 2018]; root of context hierarchy
+2018-03-28 22:24:51,527 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-03-28 22:24:51,529 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-03-28 22:24:51,530 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-03-28 22:24:51,540 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-03-28 22:24:51,540 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-03-28 22:24:51,540 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-03-28 22:24:51,541 - Mapped "{[/user/sendgift],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sendGift(int,java.lang.String,int,int)
+2018-03-28 22:24:51,541 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-03-28 22:24:51,541 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-03-28 22:24:51,542 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-03-28 22:24:51,546 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-28 22:24:51,547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-28 22:24:51,659 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:24:51,659 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:24:52,032 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-28 22:24:58,403 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Mar 28 22:23:45 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-03-28 22:24:58,434 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-03-28 22:24:58,705 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-03-28 22:24:59,412 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-03-28 22:24:59,754 - Registering beans for JMX exposure on startup
+2018-03-28 22:25:00,072 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-03-28 22:25:00,253 - Starting ProtocolHandler ["http-nio-8086"]
+2018-03-28 22:25:00,364 - Using a shared selector for servlet write/read
+2018-03-28 22:25:00,765 - Tomcat started on port(s): 8086 (http)
+2018-03-28 22:25:00,836 - Started App in 78.696 seconds (JVM running for 87.933)
+2018-03-28 22:25:00,837 - IM系统启动成功
+2018-03-28 22:28:26,660 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-28 22:28:26,681 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-28 22:28:26,759 - FrameworkServlet 'dispatcherServlet': initialization completed in 77 ms
+2018-03-28 22:28:37,708 - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-28 22:34:07,395 - roomid:54,userid:1 come in
+2018-03-28 22:38:40,713 - roomid:54,userid:1 come in
+2018-03-28 22:39:23,970 - roomid:54,userid:1 come in
+2018-03-28 22:42:33,178 - roomid:54,userid:1 come in
+2018-03-28 22:42:47,705 - roomid:54,userid:1 come in
+2018-03-28 22:44:44,588 - roomid:54,userid:1 come in
+2018-03-28 22:47:12,647 - roomid:54,userid:1 come in
+2018-03-28 23:01:25,923 - roomid:54,userid:1 come in
+2018-03-28 23:16:40,519 - roomid:54,userid:1 come in
+2018-03-28 23:23:38,660 - roomid:54,userid:1 come in
+2018-03-28 23:24:39,033 - roomid:54,userid:1 come in
+2018-03-28 23:28:13,705 - roomid:54,userid:1 come in
+2018-03-28 23:31:26,389 - roomid:54,userid:1 come in
+2018-03-28 23:34:04,823 - roomid:54,userid:1 come in
+2018-03-28 23:34:34,343 - roomid:54,userid:1 come in
+2018-03-28 23:35:48,976 - roomid:54,userid:1 come in
+2018-03-28 23:37:18,787 - roomid:54,userid:1 come in
+2018-03-28 23:39:10,260 - roomid:54,userid:1 come in
+2018-03-28 23:40:13,202 - roomid:54,userid:1 come in
+2018-03-28 23:45:01,999 - roomid:54,userid:1 come in
+2018-03-28 23:46:18,319 - roomid:54,userid:1 come in
+2018-03-28 23:56:38,847 - roomid:55,userid:null come in

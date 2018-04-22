@@ -1,0 +1,447 @@
+2018-02-01 00:24:24,199 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Wed Jan 31 22:22:05 CST 2018]; root of context hierarchy
+2018-02-01 00:24:24,404 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 00:24:24,410 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:25:11,390 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2099 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 00:25:11,472 - The following profiles are active: dev
+2018-02-01 00:25:12,023 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:25:12 CST 2018]; root of context hierarchy
+2018-02-01 00:25:14,332 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 00:25:16,600 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 00:25:16,797 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 00:25:16,899 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 00:25:16,900 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 00:25:19,693 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 00:25:19,750 - Starting service Tomcat
+2018-02-01 00:25:19,752 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 00:25:20,702 - Initializing Spring embedded WebApplicationContext
+2018-02-01 00:25:20,702 - Root WebApplicationContext: initialization completed in 8679 ms
+2018-02-01 00:25:21,357 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 00:25:21,383 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 00:25:21,384 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 00:25:21,384 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 00:25:21,384 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 00:25:23,656 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:25:23,738 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 00:25:24,291 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 00:25:24,307 - HHH000206: hibernate.properties not found
+2018-02-01 00:25:24,310 - HHH000021: Bytecode provider name : javassist
+2018-02-01 00:25:24,535 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 00:25:25,002 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 00:25:26,454 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:25:28,556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:25:12 CST 2018]; root of context hierarchy
+2018-02-01 00:25:28,750 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 00:25:28,752 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 00:25:28,754 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 00:25:28,786 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 00:25:28,787 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 00:25:28,787 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 00:25:28,788 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 00:25:28,788 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 00:25:28,788 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 00:25:28,801 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 00:25:28,802 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 00:25:28,884 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:25:28,884 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:25:29,024 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:25:29,898 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:25:12 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 00:25:29,917 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 00:25:29,961 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 00:25:30,562 - Registering @ServerEndpoint class: class com.jiang.im.service.IMService
+2018-02-01 00:25:30,642 - Registering beans for JMX exposure on startup
+2018-02-01 00:25:30,700 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 00:25:30,793 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 00:25:30,859 - Using a shared selector for servlet write/read
+2018-02-01 00:25:30,927 - Tomcat started on port(s): 8086 (http)
+2018-02-01 00:25:30,952 - Started App in 23.952 seconds (JVM running for 28.516)
+2018-02-01 00:25:30,952 - IM系统启动成功
+2018-02-01 00:26:55,927 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:25:12 CST 2018]; root of context hierarchy
+2018-02-01 00:26:55,962 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 00:26:55,967 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:27:02,931 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2107 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 00:27:02,937 - The following profiles are active: dev
+2018-02-01 00:27:03,205 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:27:03 CST 2018]; root of context hierarchy
+2018-02-01 00:27:03,762 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 00:27:06,010 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 00:27:06,105 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 00:27:06,138 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 00:27:06,139 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 00:27:07,888 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 00:27:07,924 - Starting service Tomcat
+2018-02-01 00:27:07,927 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 00:27:08,307 - Initializing Spring embedded WebApplicationContext
+2018-02-01 00:27:08,307 - Root WebApplicationContext: initialization completed in 5102 ms
+2018-02-01 00:27:08,617 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 00:27:08,664 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 00:27:08,665 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 00:27:08,665 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 00:27:08,666 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 00:27:09,884 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:27:09,917 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 00:27:10,303 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 00:27:10,305 - HHH000206: hibernate.properties not found
+2018-02-01 00:27:10,307 - HHH000021: Bytecode provider name : javassist
+2018-02-01 00:27:10,373 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 00:27:10,626 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 00:27:11,738 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 00:27:13,065 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:27:03 CST 2018]; root of context hierarchy
+2018-02-01 00:27:13,214 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 00:27:13,215 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 00:27:13,217 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 00:27:13,224 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 00:27:13,224 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 00:27:13,225 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 00:27:13,225 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 00:27:13,225 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 00:27:13,225 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 00:27:13,229 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 00:27:13,230 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 00:27:13,302 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:27:13,303 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:27:13,449 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 00:27:14,098 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:27:03 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 00:27:14,101 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 00:27:14,138 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 00:27:14,715 - Registering @ServerEndpoint class: class com.jiang.im.service.IMService
+2018-02-01 00:27:14,740 - Registering beans for JMX exposure on startup
+2018-02-01 00:27:14,773 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 00:27:14,798 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 00:27:14,833 - Using a shared selector for servlet write/read
+2018-02-01 00:27:14,948 - Tomcat started on port(s): 8086 (http)
+2018-02-01 00:27:15,027 - Started App in 14.259 seconds (JVM running for 15.748)
+2018-02-01 00:27:15,028 - IM系统启动成功
+2018-02-01 00:32:13,700 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 00:32:13,714 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 00:32:13,803 - FrameworkServlet 'dispatcherServlet': initialization completed in 89 ms
+2018-02-01 00:32:14,126 - [IMService] new connect, all counts:1
+2018-02-01 00:32:14,127 - roomid:1,userid:1
+2018-02-01 00:32:14,201 - [IMService] disconnect, all counts:0
+2018-02-01 00:33:04,377 - [IMService] new connect, all counts:1
+2018-02-01 00:33:04,380 - roomid:1,userid:1
+2018-02-01 00:41:34,578 - [IMService] disconnect, all counts:0
+2018-02-01 00:51:26,350 - [IMService] new connect, all counts:1
+2018-02-01 00:51:26,358 - roomid:1,userid:1
+2018-02-01 00:51:46,187 - [IMService] disconnect, all counts:0
+2018-02-01 00:52:27,601 - [IMService] new connect, all counts:1
+2018-02-01 00:52:27,636 - roomid:1,userid:http:
+2018-02-01 00:52:29,765 - [IMService] disconnect, all counts:0
+2018-02-01 01:26:49,861 - [IMService] new connect, all counts:1
+2018-02-01 01:26:49,887 - roomid:1,userid:MXxqaWFuZ3xodHRwOi8vMTkyLjE2OC4xLjEwMjo4MDgwL2hlYWRlcnMvMV8xNTE3MTE4Mzk4MzYwX2F2YXRhci5qcGd8MQ==
+2018-02-01 01:26:57,673 - [IMService] disconnect, all counts:0
+2018-02-01 01:26:58,959 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 00:27:03 CST 2018]; root of context hierarchy
+2018-02-01 01:26:59,392 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 01:26:59,474 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:27:48,150 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2573 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 01:27:48,387 - The following profiles are active: dev
+2018-02-01 01:27:50,809 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:27:50 CST 2018]; root of context hierarchy
+2018-02-01 01:27:56,289 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 01:28:10,092 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:28:10,757 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:28:10,906 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 01:28:10,907 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 01:28:14,086 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 01:28:14,167 - Starting service Tomcat
+2018-02-01 01:28:14,185 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 01:28:14,741 - Initializing Spring embedded WebApplicationContext
+2018-02-01 01:28:14,741 - Root WebApplicationContext: initialization completed in 23932 ms
+2018-02-01 01:28:15,051 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 01:28:15,077 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 01:28:15,078 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 01:28:15,078 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 01:28:15,078 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 01:28:19,374 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:28:19,479 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 01:28:20,830 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 01:28:20,832 - HHH000206: hibernate.properties not found
+2018-02-01 01:28:20,842 - HHH000021: Bytecode provider name : javassist
+2018-02-01 01:28:21,119 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 01:28:21,774 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 01:28:23,424 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:28:25,980 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:27:50 CST 2018]; root of context hierarchy
+2018-02-01 01:28:26,210 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 01:28:26,212 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 01:28:26,213 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 01:28:26,222 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 01:28:26,222 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 01:28:26,223 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 01:28:26,223 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 01:28:26,223 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 01:28:26,223 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 01:28:26,226 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 01:28:26,227 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 01:28:26,288 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:28:26,288 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:28:26,367 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:28:27,714 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:27:50 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 01:28:27,716 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 01:28:27,757 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 01:28:28,405 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-02-01 01:28:28,621 - Registering beans for JMX exposure on startup
+2018-02-01 01:28:28,728 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:28:28,774 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:28:28,854 - Using a shared selector for servlet write/read
+2018-02-01 01:28:28,955 - Tomcat started on port(s): 8086 (http)
+2018-02-01 01:28:28,980 - Started App in 59.175 seconds (JVM running for 69.119)
+2018-02-01 01:28:28,980 - IM系统启动成功
+2018-02-01 01:28:31,096 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 01:28:31,096 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 01:28:31,168 - FrameworkServlet 'dispatcherServlet': initialization completed in 72 ms
+2018-02-01 01:30:08,449 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:27:50 CST 2018]; root of context hierarchy
+2018-02-01 01:30:08,469 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 01:30:08,473 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:30:24,543 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2590 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 01:30:24,576 - The following profiles are active: dev
+2018-02-01 01:30:24,791 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:30:24 CST 2018]; root of context hierarchy
+2018-02-01 01:30:25,381 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 01:30:26,869 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:30:26,984 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:30:27,016 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 01:30:27,017 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 01:30:28,753 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 01:30:28,780 - Starting service Tomcat
+2018-02-01 01:30:28,782 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 01:30:29,203 - Initializing Spring embedded WebApplicationContext
+2018-02-01 01:30:29,203 - Root WebApplicationContext: initialization completed in 4412 ms
+2018-02-01 01:30:29,567 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 01:30:29,577 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 01:30:29,578 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 01:30:29,579 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 01:30:29,579 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 01:30:31,051 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:30:31,087 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 01:30:31,352 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 01:30:31,354 - HHH000206: hibernate.properties not found
+2018-02-01 01:30:31,356 - HHH000021: Bytecode provider name : javassist
+2018-02-01 01:30:31,414 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 01:30:31,720 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 01:30:32,543 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:30:34,043 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:30:24 CST 2018]; root of context hierarchy
+2018-02-01 01:30:34,193 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 01:30:34,195 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 01:30:34,196 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 01:30:34,205 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 01:30:34,205 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 01:30:34,206 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 01:30:34,206 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 01:30:34,206 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 01:30:34,207 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 01:30:34,211 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 01:30:34,212 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 01:30:34,293 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:30:34,294 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:30:34,412 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:30:35,024 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:30:24 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 01:30:35,027 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 01:30:35,070 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 01:30:35,685 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-02-01 01:30:35,712 - Registering beans for JMX exposure on startup
+2018-02-01 01:30:35,745 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:30:35,771 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:30:35,841 - Using a shared selector for servlet write/read
+2018-02-01 01:30:35,876 - Tomcat started on port(s): 8086 (http)
+2018-02-01 01:30:35,885 - Started App in 13.046 seconds (JVM running for 14.357)
+2018-02-01 01:30:35,885 - IM系统启动成功
+2018-02-01 01:30:54,002 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 01:30:54,020 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 01:30:54,395 - FrameworkServlet 'dispatcherServlet': initialization completed in 375 ms
+2018-02-01 01:31:30,283 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:30:24 CST 2018]; root of context hierarchy
+2018-02-01 01:31:30,333 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 01:31:30,336 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:31:39,376 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2600 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 01:31:39,412 - The following profiles are active: dev
+2018-02-01 01:31:39,609 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:31:39 CST 2018]; root of context hierarchy
+2018-02-01 01:31:40,343 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 01:31:42,111 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:31:42,251 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:31:42,296 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 01:31:42,298 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 01:31:44,025 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 01:31:44,054 - Starting service Tomcat
+2018-02-01 01:31:44,056 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 01:31:44,256 - Initializing Spring embedded WebApplicationContext
+2018-02-01 01:31:44,257 - Root WebApplicationContext: initialization completed in 4648 ms
+2018-02-01 01:31:44,567 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 01:31:44,575 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 01:31:44,576 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 01:31:44,576 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 01:31:44,576 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 01:31:45,835 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:31:45,860 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 01:31:46,129 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 01:31:46,131 - HHH000206: hibernate.properties not found
+2018-02-01 01:31:46,133 - HHH000021: Bytecode provider name : javassist
+2018-02-01 01:31:46,214 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 01:31:46,519 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 01:31:47,737 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:31:49,179 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:31:39 CST 2018]; root of context hierarchy
+2018-02-01 01:31:49,464 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 01:31:49,466 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 01:31:49,467 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 01:31:49,480 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 01:31:49,480 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 01:31:49,480 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 01:31:49,482 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 01:31:49,483 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 01:31:49,483 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 01:31:49,489 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 01:31:49,490 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 01:31:49,614 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:31:49,614 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:31:49,709 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:31:50,368 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:31:39 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 01:31:50,370 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 01:31:50,417 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 01:31:51,068 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-02-01 01:31:51,111 - Registering beans for JMX exposure on startup
+2018-02-01 01:31:51,147 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:31:51,171 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:31:51,206 - Using a shared selector for servlet write/read
+2018-02-01 01:31:51,242 - Tomcat started on port(s): 8086 (http)
+2018-02-01 01:31:51,253 - Started App in 13.719 seconds (JVM running for 14.999)
+2018-02-01 01:31:51,253 - IM系统启动成功
+2018-02-01 01:32:27,413 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 01:32:27,554 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 01:32:27,614 - FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2018-02-01 01:33:37,481 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:31:39 CST 2018]; root of context hierarchy
+2018-02-01 01:33:37,513 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 01:33:37,516 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:33:45,396 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 2608 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 01:33:45,400 - The following profiles are active: dev
+2018-02-01 01:33:45,521 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:33:45 CST 2018]; root of context hierarchy
+2018-02-01 01:33:46,318 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 01:33:48,004 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:33:48,114 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 01:33:48,164 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 01:33:48,166 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 01:33:50,111 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 01:33:50,145 - Starting service Tomcat
+2018-02-01 01:33:50,148 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 01:33:50,592 - Initializing Spring embedded WebApplicationContext
+2018-02-01 01:33:50,592 - Root WebApplicationContext: initialization completed in 5072 ms
+2018-02-01 01:33:50,912 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 01:33:50,921 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 01:33:50,922 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 01:33:50,923 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 01:33:50,923 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 01:33:52,771 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:33:52,803 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 01:33:53,164 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 01:33:53,167 - HHH000206: hibernate.properties not found
+2018-02-01 01:33:53,171 - HHH000021: Bytecode provider name : javassist
+2018-02-01 01:33:53,235 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 01:33:53,585 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 01:33:54,432 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 01:33:55,926 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:33:45 CST 2018]; root of context hierarchy
+2018-02-01 01:33:56,079 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 01:33:56,080 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 01:33:56,081 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 01:33:56,091 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 01:33:56,091 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 01:33:56,091 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 01:33:56,092 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 01:33:56,092 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 01:33:56,092 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 01:33:56,096 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 01:33:56,097 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 01:33:56,179 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:33:56,179 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:33:56,322 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 01:33:56,956 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:33:45 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 01:33:56,958 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 01:33:57,000 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 01:33:57,568 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-02-01 01:33:57,594 - Registering beans for JMX exposure on startup
+2018-02-01 01:33:57,627 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:33:57,652 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 01:33:57,683 - Using a shared selector for servlet write/read
+2018-02-01 01:33:57,718 - Tomcat started on port(s): 8086 (http)
+2018-02-01 01:33:57,729 - Started App in 13.936 seconds (JVM running for 15.055)
+2018-02-01 01:33:57,729 - IM系统启动成功
+2018-02-01 01:36:20,398 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 01:36:20,442 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 01:36:20,498 - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2018-02-01 01:36:20,774 - roomid:1,userid:1 come in
+2018-02-01 01:37:19,988 - roomid:1,userid:1 come in
+2018-02-01 01:37:27,529 - roomid:1,userid:1 come in
+2018-02-01 01:37:57,618 - roomid:1,userid:1 come in
+2018-02-01 01:38:06,809 - roomid:1,userid:1 come in
+2018-02-01 01:38:26,847 - roomid:1,userid:1 come in
+2018-02-01 01:40:33,511 - roomid:1,userid:1 come in
+2018-02-01 01:40:33,525 - roomid:1,userid:2 come in
+2018-02-01 01:41:06,270 - roomid:1,userid:1 come in
+2018-02-01 01:41:11,876 - roomid:1,userid:2 come in
+2018-02-01 01:46:06,492 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 01:33:45 CST 2018]; root of context hierarchy
+2018-02-01 01:46:06,528 - Unregistering JMX-exposed beans on shutdown
+2018-02-01 01:46:06,532 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 21:23:11,503 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 909 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-02-01 21:23:11,529 - The following profiles are active: dev
+2018-02-01 21:23:12,364 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 21:23:12 CST 2018]; root of context hierarchy
+2018-02-01 21:23:14,474 - HV000001: Hibernate Validator 5.3.5.Final
+2018-02-01 21:23:17,144 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 21:23:17,309 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-01 21:23:17,378 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.UserProfileRepository.
+2018-02-01 21:23:17,379 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.jiang.im.repository.RoomInfoRepository.
+2018-02-01 21:23:20,104 - Tomcat initialized with port(s): 8086 (http)
+2018-02-01 21:23:20,153 - Starting service Tomcat
+2018-02-01 21:23:20,155 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-02-01 21:23:20,908 - Initializing Spring embedded WebApplicationContext
+2018-02-01 21:23:20,908 - Root WebApplicationContext: initialization completed in 8544 ms
+2018-02-01 21:23:21,334 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-01 21:23:21,405 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-01 21:23:21,406 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-01 21:23:21,407 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-01 21:23:21,407 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-01 21:23:23,843 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-01 21:23:23,916 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-01 21:23:24,470 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-01 21:23:24,481 - HHH000206: hibernate.properties not found
+2018-02-01 21:23:24,485 - HHH000021: Bytecode provider name : javassist
+2018-02-01 21:23:24,684 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-01 21:23:25,796 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-01 21:23:27,397 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-01 21:23:29,626 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 21:23:12 CST 2018]; root of context hierarchy
+2018-02-01 21:23:29,817 - Mapped "{[/room/list],methods=[GET]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.roomList(java.lang.Integer,java.lang.Integer)
+2018-02-01 21:23:29,818 - Mapped "{[/room/createroom],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.RoomController.createRoom(com.jiang.im.form.RoomForm,org.springframework.validation.BindingResult)
+2018-02-01 21:23:29,818 - Mapped "{[/upload/img],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UploadController.uploadHeader(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-02-01 21:23:29,826 - Mapped "{[/user/register],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.register(java.lang.String,java.lang.String)
+2018-02-01 21:23:29,826 - Mapped "{[/user/login],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.login(java.lang.String)
+2018-02-01 21:23:29,827 - Mapped "{[/user/autologin],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.autoLogin(java.lang.String)
+2018-02-01 21:23:29,827 - Mapped "{[/user/selfprofile],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.selfProfile(java.lang.String)
+2018-02-01 21:23:29,827 - Mapped "{[/user/sigout],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.sigout(java.lang.String)
+2018-02-01 21:23:29,828 - Mapped "{[/user/update],methods=[POST]}" onto public com.jiang.im.vo.ResultVo com.jiang.im.controller.UserController.updateUser(com.jiang.im.form.UserProfileForm,org.springframework.validation.BindingResult)
+2018-02-01 21:23:29,831 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-01 21:23:29,832 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-01 21:23:29,915 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 21:23:29,916 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 21:23:30,125 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-01 21:23:31,120 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Thu Feb 01 21:23:12 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-02-01 21:23:31,122 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-01 21:23:31,157 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-02-01 21:23:31,749 - Registering @ServerEndpoint class: class com.jiang.im.im.IMService
+2018-02-01 21:23:31,820 - Registering beans for JMX exposure on startup
+2018-02-01 21:23:31,878 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-02-01 21:23:31,926 - Starting ProtocolHandler ["http-nio-8086"]
+2018-02-01 21:23:32,015 - Using a shared selector for servlet write/read
+2018-02-01 21:23:32,071 - Tomcat started on port(s): 8086 (http)
+2018-02-01 21:23:32,131 - Started App in 24.583 seconds (JVM running for 32.663)
+2018-02-01 21:23:32,132 - IM系统启动成功
+2018-02-01 21:30:34,790 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-01 21:30:34,878 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-01 21:30:35,025 - FrameworkServlet 'dispatcherServlet': initialization completed in 147 ms
+2018-02-01 21:30:45,560 - roomid:1,userid:1 come in
+2018-02-01 21:32:10,287 - roomid:1,userid:1 come in
+2018-02-01 21:32:51,445 - roomid:1,userid:1 come in
+2018-02-01 21:43:45,809 - roomid:1,userid:2 come in
+2018-02-01 22:47:13,268 - HHH000397: Using ASTQueryTranslatorFactory

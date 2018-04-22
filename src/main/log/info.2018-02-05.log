@@ -1,0 +1,6 @@
+2018-02-05 00:23:51,648 - roomid:54,userid:1 come in
+2018-02-05 00:24:30,940 - roomid:54,userid:1 come in
+2018-02-05 00:25:16,989 - roomid:55,userid:1 come in
+2018-02-05 00:36:30,779 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Sun Feb 04 16:21:53 CST 2018]; root of context hierarchy
+2018-02-05 00:36:32,703 - Unregistering JMX-exposed beans on shutdown
+2018-02-05 00:36:33,121 - Closing JPA EntityManagerFactory for persistence unit 'default'

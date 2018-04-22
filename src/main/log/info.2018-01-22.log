@@ -1,0 +1,308 @@
+2018-01-22 23:18:14,307 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 744 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:18:14,360 - The following profiles are active: dev
+2018-01-22 23:18:16,212 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363a52f: startup date [Mon Jan 22 23:18:16 CST 2018]; root of context hierarchy
+2018-01-22 23:18:19,282 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:18:21,941 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:18:21,999 - Starting service Tomcat
+2018-01-22 23:18:22,004 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:18:22,596 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:18:22,597 - Root WebApplicationContext: initialization completed in 6385 ms
+2018-01-22 23:18:22,961 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:18:22,980 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:18:22,981 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:18:22,981 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:18:22,981 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:18:23,851 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363a52f: startup date [Mon Jan 22 23:18:16 CST 2018]; root of context hierarchy
+2018-01-22 23:18:24,034 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:18:24,036 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:18:24,093 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:18:24,093 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:18:24,193 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:18:24,585 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363a52f: startup date [Mon Jan 22 23:18:16 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:18:24,586 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:18:24,625 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:18:24,985 - Registering beans for JMX exposure on startup
+2018-01-22 23:18:25,049 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:18:25,096 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:18:25,166 - Using a shared selector for servlet write/read
+2018-01-22 23:18:25,241 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:18:25,257 - Started App in 14.854 seconds (JVM running for 23.698)
+2018-01-22 23:18:25,258 - IM系统启动成功
+2018-01-22 23:34:48,126 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 766 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:34:48,165 - The following profiles are active: dev
+2018-01-22 23:34:48,500 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:34:48 CST 2018]; root of context hierarchy
+2018-01-22 23:34:49,401 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:34:52,120 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:34:52,163 - Starting service Tomcat
+2018-01-22 23:34:52,165 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:34:52,578 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:34:52,579 - Root WebApplicationContext: initialization completed in 4079 ms
+2018-01-22 23:34:53,012 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:34:53,027 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:34:53,029 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:34:53,029 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:34:53,029 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:34:54,004 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:34:48 CST 2018]; root of context hierarchy
+2018-01-22 23:34:54,166 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:34:54,168 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:34:54,254 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:34:54,254 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:34:54,341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:34:54,632 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:34:48 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:34:54,634 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:34:54,695 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:34:55,022 - Registering beans for JMX exposure on startup
+2018-01-22 23:34:55,048 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:34:55,065 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:34:55,157 - Pausing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:34:55,157 - Stopping service Tomcat
+2018-01-22 23:34:55,220 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-01-22 23:34:55,220 - Stopping ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:34:55,220 - Destroying ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:34:55,238 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-22 23:34:55,267 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:34:48 CST 2018]; root of context hierarchy
+2018-01-22 23:34:55,269 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:35:28,441 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363a52f: startup date [Mon Jan 22 23:18:16 CST 2018]; root of context hierarchy
+2018-01-22 23:35:28,449 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:35:37,049 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 770 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:35:37,052 - The following profiles are active: dev
+2018-01-22 23:35:37,175 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:35:37 CST 2018]; root of context hierarchy
+2018-01-22 23:35:38,000 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:35:39,741 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:35:39,771 - Starting service Tomcat
+2018-01-22 23:35:39,773 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:35:39,939 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:35:39,939 - Root WebApplicationContext: initialization completed in 2765 ms
+2018-01-22 23:35:40,208 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:35:40,216 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:35:40,224 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:35:40,225 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:35:40,225 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:35:40,770 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:35:37 CST 2018]; root of context hierarchy
+2018-01-22 23:35:40,899 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:35:40,900 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:35:40,957 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:35:40,957 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:35:41,036 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:35:41,349 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:35:37 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:35:41,351 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:35:41,393 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:35:41,731 - Registering beans for JMX exposure on startup
+2018-01-22 23:35:41,758 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:35:41,797 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:35:41,833 - Using a shared selector for servlet write/read
+2018-01-22 23:35:41,860 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:35:41,868 - Started App in 6.11 seconds (JVM running for 7.083)
+2018-01-22 23:35:41,868 - IM系统启动成功
+2018-01-22 23:39:55,252 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:35:37 CST 2018]; root of context hierarchy
+2018-01-22 23:39:55,272 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:40:02,976 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 795 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:40:02,981 - The following profiles are active: dev
+2018-01-22 23:40:03,126 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:40:03 CST 2018]; root of context hierarchy
+2018-01-22 23:40:04,227 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:40:05,766 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:40:05,786 - Starting service Tomcat
+2018-01-22 23:40:05,788 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:40:05,981 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:40:05,982 - Root WebApplicationContext: initialization completed in 2856 ms
+2018-01-22 23:40:06,192 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:40:06,201 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:40:06,202 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:40:06,202 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:40:06,202 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:40:06,719 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:40:03 CST 2018]; root of context hierarchy
+2018-01-22 23:40:06,857 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:40:06,859 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:40:06,916 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:40:06,916 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:40:07,051 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:40:07,349 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:40:03 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:40:07,351 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:40:07,408 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:40:07,713 - Registering beans for JMX exposure on startup
+2018-01-22 23:40:07,739 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:40:07,757 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:40:07,795 - Using a shared selector for servlet write/read
+2018-01-22 23:40:07,825 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:40:07,836 - Started App in 6.167 seconds (JVM running for 7.218)
+2018-01-22 23:40:07,837 - IM系统启动成功
+2018-01-22 23:42:05,908 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-22 23:42:05,940 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-22 23:42:06,027 - FrameworkServlet 'dispatcherServlet': initialization completed in 86 ms
+2018-01-22 23:47:28,347 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:40:03 CST 2018]; root of context hierarchy
+2018-01-22 23:47:28,366 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:47:32,963 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 860 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:47:32,967 - The following profiles are active: dev
+2018-01-22 23:47:33,143 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:33 CST 2018]; root of context hierarchy
+2018-01-22 23:47:33,959 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:47:35,679 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:47:35,707 - Starting service Tomcat
+2018-01-22 23:47:35,710 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:47:35,923 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:47:35,924 - Root WebApplicationContext: initialization completed in 2782 ms
+2018-01-22 23:47:36,242 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:47:36,251 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:47:36,252 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:47:36,252 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:47:36,252 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:47:36,827 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:33 CST 2018]; root of context hierarchy
+2018-01-22 23:47:36,953 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:47:36,955 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:47:37,004 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:37,004 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:37,102 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:37,384 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:33 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:47:37,386 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:47:37,426 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:47:37,803 - Registering beans for JMX exposure on startup
+2018-01-22 23:47:37,838 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:47:37,857 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:47:37,891 - Using a shared selector for servlet write/read
+2018-01-22 23:47:37,920 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:47:37,928 - Started App in 6.2 seconds (JVM running for 7.399)
+2018-01-22 23:47:37,928 - IM系统启动成功
+2018-01-22 23:47:49,622 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:33 CST 2018]; root of context hierarchy
+2018-01-22 23:47:49,642 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:47:53,393 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 864 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:47:53,400 - The following profiles are active: dev
+2018-01-22 23:47:53,590 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:53 CST 2018]; root of context hierarchy
+2018-01-22 23:47:54,510 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:47:56,148 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:47:56,189 - Starting service Tomcat
+2018-01-22 23:47:56,191 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:47:56,408 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:47:56,409 - Root WebApplicationContext: initialization completed in 2819 ms
+2018-01-22 23:47:56,653 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:47:56,661 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:47:56,662 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:47:56,662 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:47:56,663 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:47:57,180 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:53 CST 2018]; root of context hierarchy
+2018-01-22 23:47:57,298 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:47:57,300 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:47:57,348 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:57,348 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:57,420 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:47:57,678 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:53 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:47:57,680 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:47:57,724 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:47:58,021 - Registering beans for JMX exposure on startup
+2018-01-22 23:47:58,049 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:47:58,070 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:47:58,105 - Using a shared selector for servlet write/read
+2018-01-22 23:47:58,196 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:47:58,204 - Started App in 6.0 seconds (JVM running for 7.209)
+2018-01-22 23:47:58,205 - IM系统启动成功
+2018-01-22 23:48:05,678 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:47:53 CST 2018]; root of context hierarchy
+2018-01-22 23:48:05,682 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:48:14,379 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 867 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:48:14,382 - The following profiles are active: dev
+2018-01-22 23:48:14,502 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:14 CST 2018]; root of context hierarchy
+2018-01-22 23:48:15,422 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:48:17,058 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:48:17,090 - Starting service Tomcat
+2018-01-22 23:48:17,093 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:48:17,276 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:48:17,277 - Root WebApplicationContext: initialization completed in 2775 ms
+2018-01-22 23:48:17,538 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:48:17,546 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:48:17,547 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:48:17,547 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:48:17,547 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:48:18,133 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:14 CST 2018]; root of context hierarchy
+2018-01-22 23:48:18,278 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:48:18,281 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:48:18,337 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:48:18,337 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:48:18,432 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:48:18,778 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:14 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:48:18,780 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:48:18,827 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:48:19,210 - Registering beans for JMX exposure on startup
+2018-01-22 23:48:19,244 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:48:19,263 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:48:19,297 - Using a shared selector for servlet write/read
+2018-01-22 23:48:19,330 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:48:19,339 - Started App in 6.168 seconds (JVM running for 7.2)
+2018-01-22 23:48:19,339 - IM系统启动成功
+2018-01-22 23:48:40,278 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 869 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:48:40,316 - The following profiles are active: dev
+2018-01-22 23:48:40,492 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:40 CST 2018]; root of context hierarchy
+2018-01-22 23:48:41,368 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:48:42,225 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:14 CST 2018]; root of context hierarchy
+2018-01-22 23:48:42,230 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:48:56,500 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 873 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:48:56,509 - The following profiles are active: dev
+2018-01-22 23:48:56,633 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:56 CST 2018]; root of context hierarchy
+2018-01-22 23:48:57,189 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:48:59,361 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:48:59,391 - Starting service Tomcat
+2018-01-22 23:48:59,392 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:48:59,604 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:48:59,605 - Root WebApplicationContext: initialization completed in 2973 ms
+2018-01-22 23:48:59,885 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:48:59,895 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:48:59,896 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:48:59,896 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:48:59,896 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:49:00,541 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:56 CST 2018]; root of context hierarchy
+2018-01-22 23:49:00,700 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:49:00,701 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:49:00,769 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:49:00,769 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:49:00,850 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:49:01,460 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:56 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:49:01,464 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:49:01,519 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:49:02,120 - Registering beans for JMX exposure on startup
+2018-01-22 23:49:02,160 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:49:02,227 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:49:02,273 - Using a shared selector for servlet write/read
+2018-01-22 23:49:02,304 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:49:02,313 - Started App in 6.668 seconds (JVM running for 12.708)
+2018-01-22 23:49:02,313 - IM系统启动成功
+2018-01-22 23:49:19,831 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:48:56 CST 2018]; root of context hierarchy
+2018-01-22 23:49:19,851 - Unregistering JMX-exposed beans on shutdown
+2018-01-22 23:50:07,147 - Starting App on jiangqianghuadeMacBook-Pro.local with PID 882 (/Users/jiangqianghua/Documents/workspace/idea/IMServer/target/classes started by jiangqianghua in /Users/jiangqianghua/Documents/workspace/idea/IMServer)
+2018-01-22 23:50:07,169 - The following profiles are active: dev
+2018-01-22 23:50:07,273 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:50:07 CST 2018]; root of context hierarchy
+2018-01-22 23:50:08,029 - HV000001: Hibernate Validator 5.3.5.Final
+2018-01-22 23:50:09,732 - Tomcat initialized with port(s): 8086 (http)
+2018-01-22 23:50:09,761 - Starting service Tomcat
+2018-01-22 23:50:09,763 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-01-22 23:50:09,991 - Initializing Spring embedded WebApplicationContext
+2018-01-22 23:50:09,991 - Root WebApplicationContext: initialization completed in 2718 ms
+2018-01-22 23:50:10,277 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 23:50:10,284 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 23:50:10,285 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 23:50:10,286 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 23:50:10,286 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 23:50:13,592 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:50:07 CST 2018]; root of context hierarchy
+2018-01-22 23:50:13,720 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-22 23:50:13,817 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-22 23:50:13,887 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:50:13,888 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:50:13,966 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-22 23:50:14,291 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3abada5a: startup date [Mon Jan 22 23:50:07 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-22 23:50:14,293 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-22 23:50:14,358 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-22 23:50:14,804 - Registering @ServerEndpoint class: class com.jiang.im.service.IMService
+2018-01-22 23:50:14,877 - Registering beans for JMX exposure on startup
+2018-01-22 23:50:14,906 - Initializing ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:50:14,925 - Starting ProtocolHandler ["http-nio-8086"]
+2018-01-22 23:50:14,964 - Using a shared selector for servlet write/read
+2018-01-22 23:50:14,998 - Tomcat started on port(s): 8086 (http)
+2018-01-22 23:50:15,007 - Started App in 8.879 seconds (JVM running for 12.982)
+2018-01-22 23:50:15,007 - IM系统启动成功
+2018-01-22 23:50:25,142 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-22 23:50:25,169 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-22 23:50:25,201 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-01-22 23:50:53,136 - [IMService] new connect, all counts:
+2018-01-22 23:51:04,458 - [IMService] disconnect, all counts:
+2018-01-22 23:51:05,377 - [IMService] new connect, all counts:
+2018-01-22 23:51:20,565 - [IMService] disconnect, all counts:
+2018-01-22 23:51:28,923 - [IMService] new connect, all counts:
+2018-01-22 23:51:35,121 - [IMService] disconnect, all counts:
+2018-01-22 23:51:39,944 - [IMService] new connect, all counts:
